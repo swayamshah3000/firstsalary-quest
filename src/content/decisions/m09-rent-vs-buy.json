@@ -1,0 +1,19 @@
+{
+  "id": "m09-rent-vs-buy",
+  "month": 9,
+  "title": "Parents Want You to Buy a Flat",
+  "scenario": "Your parents push you to buy a flat early 'before prices rise'. A home loan means a big EMI for 15+ years. Buy now, or keep renting and invest the difference?",
+  "choices": [
+    {
+      "label": "Take a home loan and buy now",
+      "effects": { "addLoan": { "label": "Home Loan", "principal": 1200000, "annualRate": 9, "months": 180 }, "baseExpenses": -6000 },
+      "lesson": "Buying too early can lock most of your cash flow into one illiquid asset. A home is a lifestyle + investment decision — only worthwhile if the numbers truly work."
+    },
+    {
+      "label": "Keep renting, invest the difference",
+      "effects": { "startSip": { "label": "Equity SIP", "monthly": 8000, "annualReturn": 11 }, "knowledge": 6 },
+      "lesson": "Renting while investing the EMI gap can build comparable wealth with far more flexibility early in your career."
+    }
+  ],
+  "concept": "Rent vs buy & big-ticket debt"
+}

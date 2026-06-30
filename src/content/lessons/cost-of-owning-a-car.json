@@ -1,0 +1,55 @@
+{
+  "id": "cost-of-owning-a-car",
+  "order": 16,
+  "title": "The True Cost of Owning a Car",
+  "concept": "A car is convenience, not investment",
+  "estimatedMinutes": 5,
+  "summary": "Owning a car costs far more than its sticker price once depreciation, fuel, insurance and upkeep are added. Understanding total cost of ownership helps you decide honestly whether you can afford one.",
+  "sections": [
+    {
+      "heading": "Beyond the Showroom Price",
+      "body": "The price you pay at the showroom is only the start. On-road cost adds registration, road tax and insurance, and then running costs continue every single month for as long as you keep the car. Many first-time buyers budget only for the EMI and are surprised by everything else."
+    },
+    {
+      "heading": "Depreciation and Running Costs",
+      "body": "A new car typically loses a large chunk of its value in the first few years, so it is a depreciating asset, not an investment. On top of that you pay for petrol or diesel, annual insurance renewal, servicing, tyres, parking and the occasional repair. These recurring costs often add up to more than people expect over the life of the car."
+    },
+    {
+      "heading": "Convenience, Not Wealth",
+      "body": "A car can genuinely improve your life by saving time and giving you freedom, and that convenience has real value. But it is honest to treat it as a lifestyle expense rather than something that grows your money. If an EMI plus running costs would crowd out your savings and emergency fund, it may be worth waiting or choosing a cheaper option."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "cost-of-owning-a-car-q1",
+      "prompt": "Why is a car generally considered a depreciating asset?",
+      "options": ["Because its market value tends to fall over time", "Because it always earns interest", "Because insurance makes it more valuable each year"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "cost-of-owning-a-car-q2",
+      "prompt": "Which of these is a recurring cost of owning a car?",
+      "options": ["The one-time showroom price", "Fuel, insurance and servicing", "The first registration only"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "cost-of-owning-a-car-q3",
+      "prompt": "What does 'on-road price' include that the ex-showroom price does not?",
+      "options": ["Only the colour of the car", "Future resale value", "Registration, road tax and insurance"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "cost-of-owning-a-car-q4",
+      "prompt": "A first-time buyer budgets only for the EMI. What are they most likely to overlook?",
+      "options": ["Fuel, maintenance and insurance costs", "The colour options", "The dealership location"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "cost-of-owning-a-car-q5",
+      "prompt": "How is it most honest to think about buying a car?",
+      "options": ["As an investment that grows your wealth", "As a guaranteed way to earn returns", "As a convenience and lifestyle expense"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

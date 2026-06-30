@@ -1,0 +1,19 @@
+{
+  "id": "m04e-retirement-start",
+  "month": 4,
+  "title": "Retirement at 23?",
+  "scenario": "Retirement feels decades away at 23, and your colleagues laugh when you bring it up. But you read that starting a small long-horizon contribution now, even ₹2,000 a month, could grow far larger than starting the same amount ten years later, thanks to compounding.",
+  "choices": [
+    {
+      "label": "Start a small ₹2,000/month long-horizon retirement contribution now",
+      "effects": { "startSip": { "label": "Long-horizon retirement saving", "monthly": 2000, "annualReturn": 10 }, "knowledge": 5 },
+      "lesson": "Time is the most powerful lever in compounding. Starting young means your money, not just your salary, does the heavy lifting."
+    },
+    {
+      "label": "Wait until you earn more in a few years before thinking about retirement",
+      "effects": { "knowledge": -3 },
+      "lesson": "Delaying retirement saving by even a decade can roughly halve your final corpus. The earliest rupees compound the longest."
+    }
+  ],
+  "concept": "Long-horizon retirement saving"
+}

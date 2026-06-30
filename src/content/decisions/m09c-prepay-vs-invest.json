@@ -1,0 +1,19 @@
+{
+  "id": "m09c-prepay-vs-invest",
+  "month": 9,
+  "title": "Windfall Decision",
+  "scenario": "A delayed performance bonus of ₹1,50,000 lands in your account. You have a home loan running at about 9% interest. You could prepay a chunk of the loan or invest the bonus in a diversified equity SIP expected to return around 12% over the long run.",
+  "choices": [
+    {
+      "label": "Invest the windfall in a long-term SIP, since the expected return beats your loan rate",
+      "effects": { "startSip": { "label": "Bonus lump-sum SIP", "monthly": 12000, "annualReturn": 12 }, "knowledge": 5 },
+      "lesson": "When expected investment returns exceed your loan's interest rate, investing usually builds more wealth than prepaying."
+    },
+    {
+      "label": "Prepay the home loan to cut interest and feel debt-free sooner",
+      "effects": { "cash": -150000 },
+      "lesson": "Prepaying offers a guaranteed, risk-free 'return' equal to your loan rate and reduces stress, which can outweigh chasing higher but uncertain gains."
+    }
+  ],
+  "concept": "Prepay vs invest"
+}

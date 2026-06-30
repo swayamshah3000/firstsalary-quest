@@ -1,0 +1,19 @@
+{
+  "id": "m03d-shared-expenses",
+  "month": 3,
+  "title": "Splitting With Roommates",
+  "scenario": "You share a flat with two roommates. Rent, electricity, water and the internet bill come to about ₹36,000 between you, but lately one person keeps 'forgetting' to pay their share and you have been quietly covering the gap. It is starting to strain your own budget.",
+  "choices": [
+    {
+      "label": "Set up a shared expense tracker and a fixed split everyone pays by the 5th",
+      "effects": { "baseExpenses": 12000, "knowledge": 5 },
+      "lesson": "Clear, written splits and a shared tracker prevent awkwardness and silent overpaying. Money clarity protects both friendships and budgets."
+    },
+    {
+      "label": "Keep covering the shortfall to avoid an awkward conversation",
+      "effects": { "baseExpenses": 12000, "cash": -4000 },
+      "lesson": "Avoiding the conversation just transfers the cost to you every month. Fair systems, not silence, keep shared living sustainable."
+    }
+  ],
+  "concept": "Fairly splitting shared expenses"
+}

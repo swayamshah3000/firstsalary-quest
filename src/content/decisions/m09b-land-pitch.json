@@ -1,0 +1,19 @@
+{
+  "id": "m09b-land-pitch",
+  "month": 9,
+  "title": "A 'Can't-Lose' Land Deal",
+  "scenario": "A relative pitches a plot of land in a far-off area that will 'surely triple in value'. It would take your entire savings plus a loan. Do you go for it?",
+  "choices": [
+    {
+      "label": "Put everything into the plot",
+      "effects": { "cash": -50000, "addLoan": { "label": "Land Loan", "principal": 300000, "annualRate": 11, "months": 60 }, "knowledge": -3 },
+      "lesson": "Illiquid, single-bet 'sure things' are risky: you can't easily sell, the money is locked, and 'guaranteed' returns rarely are. Never bet your whole safety net."
+    },
+    {
+      "label": "Pass and keep diversifying",
+      "effects": { "startSip": { "label": "Diversified SIP", "monthly": 4000, "annualReturn": 11 }, "knowledge": 6 },
+      "lesson": "Diversified, liquid investments beat a single illiquid gamble for most young earners. Keep money flexible while you're still building."
+    }
+  ],
+  "concept": "Illiquid bets, diversification & 'sure things'"
+}

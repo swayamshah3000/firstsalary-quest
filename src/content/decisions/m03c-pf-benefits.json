@@ -1,0 +1,19 @@
+{
+  "id": "m03c-pf-benefits",
+  "month": 3,
+  "title": "Understanding Your PF",
+  "scenario": "Reading your payslip, you notice a chunk of salary goes to your Provident Fund each month, with your employer adding a matching share. HR mentions you can make a voluntary top-up to grow this tax-advantaged retirement corpus faster. You have ₹3,000 of monthly room in your budget.",
+  "choices": [
+    {
+      "label": "Direct ₹3,000/month extra into your PF as a voluntary contribution",
+      "effects": { "startSip": { "label": "Voluntary PF top-up", "monthly": 3000, "annualReturn": 8 }, "knowledge": 5 },
+      "lesson": "PF earns steady tax-advantaged interest and the employer match is effectively free money. Topping up young gives decades of compounding."
+    },
+    {
+      "label": "Treat PF as 'locked-away money' and ignore the top-up option",
+      "effects": { "knowledge": -3 },
+      "lesson": "PF feels invisible because it is automatic, but it is a powerful long-horizon asset. Understanding your payslip helps you use benefits you already pay for."
+    }
+  ],
+  "concept": "Provident Fund and employer benefits"
+}

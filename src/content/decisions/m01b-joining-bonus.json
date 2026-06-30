@@ -1,0 +1,19 @@
+{
+  "id": "m01b-joining-bonus",
+  "month": 1,
+  "title": "A Joining Bonus Lands",
+  "scenario": "Along with your first salary, the company credits a ₹40,000 joining bonus. It feels like 'extra' money. What do you do with it?",
+  "choices": [
+    {
+      "label": "Treat yourself — you earned it",
+      "effects": { "cash": -40000, "lifestyleExpenses": 1500 },
+      "lesson": "One-off money feels free, but spending all of it quietly raises your lifestyle baseline before your habits are even set."
+    },
+    {
+      "label": "Park most of it as your starting buffer",
+      "effects": { "emergencyFund": 35000, "knowledge": 5 },
+      "lesson": "A windfall at the very start is the easiest time to build a buffer, because you weren't yet relying on that money."
+    }
+  ],
+  "concept": "Windfalls & avoiding early lifestyle creep"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "first-salary-budget",
+  "order": 1,
+  "title": "Your First Salary & a Simple Budget",
+  "concept": "Budgeting, needs vs wants",
+  "estimatedMinutes": 4,
+  "summary": "Your take-home pay is smaller than your CTC. A simple way to handle it is to split each month between needs, wants, and savings — and to watch out for lifestyle inflation as your income grows.",
+  "sections": [
+    {
+      "heading": "CTC vs take-home",
+      "body": "Your offer letter shows CTC (cost to company), but you actually receive take-home pay after taxes, PF and deductions. Always budget on take-home, not CTC."
+    },
+    {
+      "heading": "A starter split",
+      "body": "A common rule of thumb is roughly 50% needs (rent, food, transport), 30% wants, 20% savings & investments. Adjust to your city and situation — the point is to decide on purpose, not by accident."
+    },
+    {
+      "heading": "Needs vs wants",
+      "body": "Needs are things you can't easily skip; wants make life nicer but are optional. Most 'budget leaks' come from wants quietly turning into fixed monthly habits."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "bud-q1",
+      "prompt": "You should plan your monthly budget around:",
+      "options": ["Your CTC", "Your take-home pay", "Your gross salary before tax"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "bud-q2",
+      "prompt": "In a 50/30/20 style split, the 20% is for:",
+      "options": ["Wants", "Needs", "Savings & investments"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "bud-q3",
+      "prompt": "In the 50/30/20 starter split, roughly what share goes to needs like rent, food and transport?",
+      "options": ["50%", "30%", "20%"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "bud-q4",
+      "prompt": "Why is take-home pay usually smaller than your CTC?",
+      "options": [
+        "Because of taxes, PF and other deductions",
+        "Because CTC is calculated weekly",
+        "Because banks keep a portion of every salary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "bud-q5",
+      "prompt": "According to the lesson, most 'budget leaks' come from:",
+      "options": [
+        "Paying rent on time",
+        "Wants quietly turning into fixed monthly habits",
+        "Saving too much each month"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

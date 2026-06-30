@@ -1,0 +1,71 @@
+{
+  "id": "assets-vs-liabilities",
+  "order": 6,
+  "title": "Assets vs Liabilities",
+  "concept": "Assets vs liabilities, rent vs buy",
+  "estimatedMinutes": 4,
+  "summary": "A simple lens for money decisions: assets tend to put money in your pocket over time, liabilities take it out. Many things we treat as 'investments' are actually lifestyle liabilities.",
+  "sections": [
+    {
+      "heading": "The simple test",
+      "body": "Ask: over time, does this put money into my pocket or take money out? Assets (like investments, or skills that raise your income) add; liabilities (like a car or phone on EMI) subtract through depreciation and running costs."
+    },
+    {
+      "heading": "Things that masquerade as assets",
+      "body": "A car is usually a convenience, not an investment. A phone on EMI is a lifestyle liability. A property is an asset only if the numbers — rent, EMI, maintenance — actually work out."
+    },
+    {
+      "heading": "Skills as an asset",
+      "body": "Spending on genuine upskilling can be one of the best 'assets' early in a career, because a higher income compounds across every future year."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "av-q1",
+      "prompt": "In this simple lens, an asset is something that over time:",
+      "options": [
+        "Takes money out of your pocket",
+        "Puts money into your pocket",
+        "Always loses value"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "av-q2",
+      "prompt": "A phone bought on EMI is best described as:",
+      "options": ["An investment", "A lifestyle liability", "An emergency fund"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "av-q3",
+      "prompt": "The simple test for telling an asset from a liability is to ask whether, over time, it:",
+      "options": [
+        "Looks impressive to others",
+        "Puts money into or takes money out of your pocket",
+        "Was bought new or second-hand"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "av-q4",
+      "prompt": "According to the lesson, one of the best 'assets' early in a career is:",
+      "options": [
+        "Spending on genuine upskilling that raises your income",
+        "A car bought for convenience",
+        "The latest phone on EMI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "av-q5",
+      "prompt": "A property counts as a genuine asset only when:",
+      "options": [
+        "It is in a big city",
+        "It is bought brand new",
+        "The numbers — rent, EMI, maintenance — actually work out"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

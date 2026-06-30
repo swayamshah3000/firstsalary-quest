@@ -1,0 +1,19 @@
+{
+  "id": "m04c-topup-ef-vs-invest",
+  "month": 4,
+  "title": "Safety Net or Growth?",
+  "scenario": "Your emergency fund sits at about ₹40,000, roughly one and a half months of expenses. You have ₹10,000 spare this month. You are torn between finishing the emergency fund first or jumping straight into a market-linked investment for higher returns.",
+  "choices": [
+    {
+      "label": "Top up the emergency fund toward three to six months of expenses first",
+      "effects": { "emergencyFund": 10000, "knowledge": 5 },
+      "lesson": "An emergency fund is the foundation. Investing before it is built can force you to sell at a loss when a sudden expense hits."
+    },
+    {
+      "label": "Put the ₹10,000 straight into a volatile investment for higher returns",
+      "effects": { "startSip": { "label": "Equity SIP", "monthly": 3000, "annualReturn": 12 } },
+      "lesson": "Higher returns mean higher swings. Without a cash buffer, a market dip plus an emergency can corner you into bad timing."
+    }
+  ],
+  "concept": "Emergency fund before investing"
+}

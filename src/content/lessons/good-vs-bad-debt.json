@@ -1,0 +1,55 @@
+{
+  "id": "good-vs-bad-debt",
+  "order": 15,
+  "title": "Good Debt vs Bad Debt",
+  "concept": "When borrowing helps or hurts",
+  "estimatedMinutes": 5,
+  "summary": "Not all debt is the same: some borrowing can help build long-term value while other borrowing funds things that quickly lose value. This lesson explains the difference for first-time earners.",
+  "sections": [
+    {
+      "heading": "The Idea of Good Debt",
+      "body": "Good debt is borrowing that can help you build value or income over time, such as an education loan that improves your earning ability or, in some cases, a home loan for an appreciating asset. The key idea is that what you bought may grow in value or boost your future income. Such debt is usually larger but carries a longer-term purpose."
+    },
+    {
+      "heading": "The Idea of Bad Debt",
+      "body": "Bad debt is borrowing to fund wants that lose value quickly, such as the latest gadget or an expensive holiday put on a high-interest credit card. The item often depreciates while the interest charges keep growing. Carrying a balance on high-interest debt month after month can quietly drain your finances."
+    },
+    {
+      "heading": "Judging Any Debt",
+      "body": "Whether debt is helpful depends on the interest rate, what you are buying, and whether you can comfortably repay it. Even education or home loans can become a burden if the repayments stretch you too thin. Asking whether the borrowing builds future value or just funds a passing want is a useful first test."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "good-vs-bad-debt-q1",
+      "prompt": "Which is the clearest example often described as 'good debt'?",
+      "options": ["A high-interest loan for a luxury holiday", "An education loan that improves earning ability", "Credit-card balance for a new phone"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "good-vs-bad-debt-q2",
+      "prompt": "'Bad debt' typically funds things that:",
+      "options": ["Appreciate steadily in value", "Generate future income", "Lose value quickly"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "good-vs-bad-debt-q3",
+      "prompt": "A high-interest credit-card balance carried for many months is a problem because:",
+      "options": ["Interest charges keep growing", "It always raises your salary", "It has no cost"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "good-vs-bad-debt-q4",
+      "prompt": "Even an education or home loan can become a burden if:",
+      "options": ["Its purpose is long-term", "The repayments stretch you too thin", "The interest rate is reasonable"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "good-vs-bad-debt-q5",
+      "prompt": "A useful first test for any borrowing is to ask whether it:",
+      "options": ["Builds future value or just funds a passing want", "Comes from a well-known lender", "Has a colourful advertisement"],
+      "correctIndex": 0
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

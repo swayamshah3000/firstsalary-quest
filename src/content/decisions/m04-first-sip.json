@@ -1,0 +1,19 @@
+{
+  "id": "m04-first-sip",
+  "month": 4,
+  "title": "Money Just Sitting in the Bank",
+  "scenario": "Your savings account is growing and earning almost nothing. A colleague suggests a monthly SIP into an index fund. Another says keep it all in the bank where it feels safe. What do you do?",
+  "choices": [
+    {
+      "label": "Start a ₹5,000/month index SIP",
+      "effects": { "startSip": { "label": "Index Fund SIP", "monthly": 5000, "annualReturn": 12 }, "knowledge": 5 },
+      "lesson": "Starting early lets compounding do the heavy lifting. Even a small SIP, left alone for years, can outgrow a much larger amount started later."
+    },
+    {
+      "label": "Keep everything in the savings account",
+      "effects": { "knowledge": -2 },
+      "lesson": "Idle cash quietly loses value to inflation. Once your emergency fund is set, long-term money should be invested, not parked."
+    }
+  ],
+  "concept": "Compounding & the first SIP"
+}

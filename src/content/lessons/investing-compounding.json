@@ -1,0 +1,75 @@
+{
+  "id": "investing-compounding",
+  "order": 4,
+  "title": "SIPs, Index Funds & the Magic of Compounding",
+  "concept": "Investing basics, compounding, time horizon",
+  "estimatedMinutes": 5,
+  "summary": "Investing regularly through a SIP lets compounding work over years. Starting early usually beats starting big later. The key levers are time in the market, consistency, and keeping costs low.",
+  "sections": [
+    {
+      "heading": "What a SIP is",
+      "body": "A SIP (Systematic Investment Plan) invests a fixed amount every month into a fund — often a low-cost index fund. It automates the habit and averages your buy price over time."
+    },
+    {
+      "heading": "Why compounding rewards early starters",
+      "body": "Returns earn their own returns. Because of this, money invested earlier has more years to grow, so starting a small SIP early can outgrow a larger SIP started years later."
+    },
+    {
+      "heading": "Risk and time horizon",
+      "body": "Markets move up and down in the short term. Money you'll need within a few years shouldn't be in volatile investments; long-horizon money can ride out the bumps."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "inv-q1",
+      "prompt": "The main advantage of starting a SIP early is:",
+      "options": [
+        "Guaranteed profits",
+        "More years for compounding to work",
+        "Avoiding all market risk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "inv-q2",
+      "prompt": "Money you'll need next year is best kept:",
+      "options": [
+        "In volatile equity for higher returns",
+        "In a safer, stable option",
+        "Spent before it loses value"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "inv-q3",
+      "prompt": "What does a SIP actually do?",
+      "options": [
+        "Invests a fixed amount every month, averaging your buy price over time",
+        "Guarantees a fixed return each month",
+        "Locks your money for a fixed five-year term"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "inv-q4",
+      "prompt": "Compounding means that:",
+      "options": [
+        "Your returns are paid out and spent each year",
+        "Returns earn their own returns over time",
+        "Markets never fall in the short term"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "inv-q5",
+      "prompt": "The lesson highlights index funds mainly because they are:",
+      "options": [
+        "A way to beat the market every year",
+        "Risk-free",
+        "Low-cost, which helps keep more of your returns"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. No specific fund or product is recommended. Consult a SEBI-registered adviser for personalized advice."
+}

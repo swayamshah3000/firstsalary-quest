@@ -1,0 +1,19 @@
+{
+  "id": "m07c-job-switch",
+  "month": 7,
+  "title": "A Better Offer",
+  "scenario": "After six months of solid work, you land a new job that pays ₹62,000 a month, up from your current ₹46,000. Friends are already nudging you to celebrate the ₹16,000 jump with a new phone and weekend trips. How do you treat this raise?",
+  "choices": [
+    {
+      "label": "Keep your lifestyle flat and route most of the raise into savings and a SIP",
+      "effects": { "startSip": { "label": "Raise-funded SIP", "monthly": 9000, "annualReturn": 12 }, "knowledge": 5 },
+      "lesson": "Avoiding lifestyle inflation when income rises is the single biggest lever for building wealth early."
+    },
+    {
+      "label": "Upgrade your rent, phone and outings to match the new pay",
+      "effects": { "lifestyleExpenses": 9000, "baseExpenses": 4000 },
+      "lesson": "Spending a raise immediately resets your baseline costs and leaves you no better off than before."
+    }
+  ],
+  "concept": "Lifestyle inflation"
+}

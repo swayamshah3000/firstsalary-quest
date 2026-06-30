@@ -1,0 +1,19 @@
+{
+  "id": "m11c-side-hustle",
+  "month": 11,
+  "title": "An Extra Income Stream",
+  "scenario": "A weekend freelance gig editing videos could bring in roughly ₹8,000 a month. It needs about six hours each weekend and a one-time ₹6,000 spend on software and a microphone. You are tempted, but worry about burning out or losing focus at your day job.",
+  "choices": [
+    {
+      "label": "Start the side hustle in a disciplined way and channel the extra income into investments",
+      "effects": { "cash": -6000, "startSip": { "label": "Side-hustle income SIP", "monthly": 6000, "annualReturn": 12 }, "knowledge": 5 },
+      "lesson": "A second income stream diversifies your earnings and, if invested rather than spent, can dramatically accelerate your goals."
+    },
+    {
+      "label": "Skip it and pick up extra paid overtime spending instead on takeaways to cope",
+      "effects": { "lifestyleExpenses": 2500 },
+      "lesson": "Extra income only helps if you protect your energy and invest the proceeds; new earnings frittered away leave you no further ahead."
+    }
+  ],
+  "concept": "Income diversification"
+}

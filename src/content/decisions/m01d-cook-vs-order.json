@@ -1,0 +1,19 @@
+{
+  "id": "m01d-cook-vs-order",
+  "month": 1,
+  "title": "Cook or Order In?",
+  "scenario": "You have settled into your new flat. Ordering dinner on food-delivery apps costs about ₹250 a meal, and you are tempted to do it most nights. Cooking simple meals at home would cost roughly ₹80 a meal, but means buying basics and spending time in the kitchen.",
+  "choices": [
+    {
+      "label": "Cook on most weeknights and order in only on weekends",
+      "effects": { "baseExpenses": 2500, "knowledge": 5 },
+      "lesson": "Small daily habits compound. Cooking most nights keeps food costs low while still leaving room for an occasional treat."
+    },
+    {
+      "label": "Order in most nights for convenience",
+      "effects": { "lifestyleExpenses": 5000 },
+      "lesson": "A ₹250 dinner feels harmless, but daily delivery can quietly become one of your biggest monthly outflows."
+    }
+  ],
+  "concept": "Recurring lifestyle costs"
+}

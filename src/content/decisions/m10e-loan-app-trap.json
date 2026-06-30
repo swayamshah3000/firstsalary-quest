@@ -1,0 +1,19 @@
+{
+  "id": "m10e-loan-app-trap",
+  "month": 10,
+  "title": "The Instant Loan App",
+  "scenario": "Short on cash before payday, you see an ad for an app promising '₹15,000 in 5 minutes, no paperwork'. The fine print mentions a ₹3,000 'processing fee', daily late charges, and demands access to your contacts and photos. The effective interest works out to over 100% a year.",
+  "choices": [
+    {
+      "label": "Refuse, uninstall the app, and instead ask for a small salary advance or trim spending",
+      "effects": { "knowledge": 5 },
+      "lesson": "Predatory loan apps hide brutal rates and misuse your data to harass you; legitimate lenders disclose costs clearly and never demand your contacts."
+    },
+    {
+      "label": "Take the quick ₹15,000 to tide over the gap",
+      "effects": { "cash": 12000, "addLoan": { "label": "Instant app loan", "principal": 15000, "annualRate": 110, "months": 6 } },
+      "lesson": "After fees you receive less than promised and owe far more, with aggressive recovery tactics that can spiral into a debt trap."
+    }
+  ],
+  "concept": "Predatory lending"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m08d-parents-health",
+  "month": 8,
+  "title": "Protecting Your Parents",
+  "scenario": "Your parents are in their late fifties with no health cover beyond a small employer plan your father is about to lose on retirement. A senior-citizen health policy for both would cost around ₹2,200 a month. One unplanned hospital stay could otherwise land squarely on your salary.",
+  "choices": [
+    {
+      "label": "Buy a dedicated health policy for your parents now, while they are still insurable",
+      "effects": { "insurance": { "health": 700000 }, "baseExpenses": 2200, "knowledge": 5 },
+      "lesson": "Premiums rise sharply with age and pre-existing conditions, so insuring parents early locks in cover before it becomes costly or impossible."
+    },
+    {
+      "label": "Plan to 'self-fund' their medical costs from savings if anything happens",
+      "effects": {},
+      "lesson": "Self-funding works only until a major hospital bill arrives; without cover, one event can consume your entire emergency fund."
+    }
+  ],
+  "concept": "Insuring dependents"
+}

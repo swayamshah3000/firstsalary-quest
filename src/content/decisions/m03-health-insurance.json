@@ -1,0 +1,19 @@
+{
+  "id": "m03-health-insurance",
+  "month": 3,
+  "title": "Do You Need Insurance Yet?",
+  "scenario": "Your employer gives a thin group health cover. An agent suggests your own ₹5 lakh health policy for a small monthly premium. You're young and healthy. Buy your own cover?",
+  "choices": [
+    {
+      "label": "Skip it — the office cover is enough",
+      "effects": { "knowledge": -3 },
+      "lesson": "Employer cover vanishes the day you switch or lose a job, and is often thin. Relying on it alone leaves a gap exactly when you may need it."
+    },
+    {
+      "label": "Buy a ₹5L personal health policy",
+      "effects": { "insurance": { "health": 500000 }, "baseExpenses": 600 },
+      "lesson": "Insurance is bought before you need it, not after. One hospital bill can wipe out years of savings, so protection comes before growth."
+    }
+  ],
+  "concept": "Health insurance & protecting your downside"
+}

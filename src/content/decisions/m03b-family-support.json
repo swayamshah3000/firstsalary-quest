@@ -1,0 +1,19 @@
+{
+  "id": "m03b-family-support",
+  "month": 3,
+  "title": "Family Needs a Hand",
+  "scenario": "Your parents ask for ₹8,000 a month to help at home. You want to help, but it's a real chunk of your salary. How do you handle it?",
+  "choices": [
+    {
+      "label": "Send it and figure out the rest later",
+      "effects": { "baseExpenses": 8000, "knowledge": 2 },
+      "lesson": "Supporting family is valid and important — but treat it as a planned monthly commitment, not an afterthought, so the rest of your budget still works."
+    },
+    {
+      "label": "Help, but plan the amount into your budget",
+      "effects": { "baseExpenses": 6000, "emergencyFund": 4000, "knowledge": 5 },
+      "lesson": "Helping sustainably means budgeting a number you can actually keep up, and still protecting your own safety net so you don't become dependent later."
+    }
+  ],
+  "concept": "Family dependency & sustainable support"
+}

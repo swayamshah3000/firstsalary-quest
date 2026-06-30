@@ -1,0 +1,19 @@
+{
+  "id": "m12-year-end",
+  "month": 12,
+  "title": "One Year In",
+  "scenario": "It's the final month of your first salaried year. You've learned a lot. With a little surplus in hand, how do you close the year?",
+  "choices": [
+    {
+      "label": "Splurge to celebrate the year",
+      "effects": { "cash": -30000, "lifestyleExpenses": 2000 },
+      "lesson": "Celebrating is fine, but ending the year by raising your lifestyle baseline makes next year's saving harder before it even starts."
+    },
+    {
+      "label": "Boost your monthly SIP",
+      "effects": { "startSip": { "label": "Step-up SIP", "monthly": 5000, "annualReturn": 12 }, "emergencyFund": 10000, "knowledge": 6 },
+      "lesson": "Consistency wins. Stepping up investments as income grows — instead of spending the raise — is what compounds into financial freedom."
+    }
+  ],
+  "concept": "Consistency, step-up SIPs & building resilience"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m11b-medical-bill",
+  "month": 11,
+  "title": "A Sudden Medical Bill",
+  "scenario": "A family member needs a small procedure costing ₹35,000. It's not covered conveniently. How do you pay for it?",
+  "choices": [
+    {
+      "label": "Swipe a credit card and carry it",
+      "effects": { "addLoan": { "label": "Card Debt (medical)", "principal": 35000, "annualRate": 36, "months": 12 }, "knowledge": -2 },
+      "lesson": "Funding an emergency on high-interest credit turns a one-time shock into months of expensive debt — exactly what an emergency fund and insurance exist to prevent."
+    },
+    {
+      "label": "Use the emergency fund",
+      "effects": { "emergencyFund": -35000, "knowledge": 6 },
+      "lesson": "This is what an emergency fund is for. Using it hurts, but it spares you high-interest debt — and you simply rebuild the fund afterwards."
+    }
+  ],
+  "concept": "Emergency fund vs debt in a crunch"
+}

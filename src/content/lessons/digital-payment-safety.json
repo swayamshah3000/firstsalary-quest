@@ -1,0 +1,55 @@
+{
+  "id": "digital-payment-safety",
+  "order": 19,
+  "title": "Staying Safe with Digital Payments",
+  "concept": "Protect your UPI and online payments",
+  "estimatedMinutes": 4,
+  "summary": "UPI and online payments are fast and convenient but attract scammers. A few simple habits, like never sharing your OTP or PIN, keep your money safe.",
+  "sections": [
+    {
+      "heading": "Never Share OTP or PIN",
+      "body": "Your UPI PIN and one-time passwords (OTPs) are like the keys to your account, and no genuine bank, app or company will ever ask for them. Anyone asking you to share an OTP or PIN over a call, message or screen-sharing app is trying to defraud you. Treat these as private and never type them at someone else's request."
+    },
+    {
+      "heading": "The Refund and 'Receive Money' Trap",
+      "body": "A common scam reverses the direction of a payment: you are told you will receive a refund or prize, but you are actually approving money leaving your account. Remember that you never need to enter your UPI PIN to receive money, only to send it. If an app asks for your PIN during a so-called refund, stop immediately."
+    },
+    {
+      "heading": "Verify Before You Pay",
+      "body": "Before paying, check the receiver's name shown by the app and confirm it matches who you intend to pay. Be wary of fake QR codes stuck over real ones at shops, and of links sent by strangers. When in doubt, pause, verify through an official channel, and never let urgency rush you into paying."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "digital-payment-safety-q1",
+      "prompt": "Who is allowed to ask you for your UPI PIN or OTP?",
+      "options": ["Your bank's customer care only", "No one, ever", "Anyone calling from an unknown number"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "digital-payment-safety-q2",
+      "prompt": "When do you need to enter your UPI PIN?",
+      "options": ["To send money, not to receive it", "To receive a refund", "To check your balance only"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "digital-payment-safety-q3",
+      "prompt": "Someone says you must enter your PIN to 'receive' a refund. What is happening?",
+      "options": ["It is a normal step", "Your bank requires it", "It is likely a scam to take money from you"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "digital-payment-safety-q4",
+      "prompt": "What should you do before paying via QR code at a shop?",
+      "options": ["Check the receiver's name matches who you intend to pay", "Pay quickly to save time", "Share your PIN with the shopkeeper"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "digital-payment-safety-q5",
+      "prompt": "A stranger sends an urgent payment link. The safest response is to:",
+      "options": ["Click it immediately", "Forward it to friends", "Pause and verify through an official channel"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

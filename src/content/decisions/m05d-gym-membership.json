@@ -1,0 +1,19 @@
+{
+  "id": "m05d-gym-membership",
+  "month": 5,
+  "title": "The Annual Gym Deal",
+  "scenario": "A new gym is offering an annual membership for ₹24,000 paid upfront, pitched as 'just ₹2,000 a month'. The monthly-only plan costs ₹2,800. You want to get fit but have never stuck to a routine for more than a few weeks.",
+  "choices": [
+    {
+      "label": "Start with the monthly plan and commit to the annual deal only after three steady months",
+      "effects": { "lifestyleExpenses": 2800, "knowledge": 5 },
+      "lesson": "Annual prepayments only save money if you actually use them. Prove the habit first, then lock in the discount."
+    },
+    {
+      "label": "Pay ₹24,000 upfront to 'force' yourself to go",
+      "effects": { "cash": -24000 },
+      "lesson": "A big upfront fee rarely creates a habit; it just risks a costly unused membership. Buy the discount once the behaviour is real."
+    }
+  ],
+  "concept": "Upfront commitments versus proven habits"
+}

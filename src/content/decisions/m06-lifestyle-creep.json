@@ -1,0 +1,19 @@
+{
+  "id": "m06-lifestyle-creep",
+  "month": 6,
+  "title": "Subscriptions Everywhere",
+  "scenario": "Friends keep recommending new streaming, food-delivery and gym memberships. Half a year in, it's tempting to 'upgrade your life'. How do you handle it?",
+  "choices": [
+    {
+      "label": "Subscribe to it all — you earn now",
+      "effects": { "lifestyleExpenses": 4000 },
+      "lesson": "Lifestyle creep is the silent budget killer. Recurring 'small' charges add up to a big monthly leak that never shows up as one painful bill."
+    },
+    {
+      "label": "Pick one, invest the rest",
+      "effects": { "startSip": { "label": "Extra SIP", "monthly": 2000, "annualReturn": 11 }, "knowledge": 4 },
+      "lesson": "Redirecting even small recurring spends into investments turns lifestyle inflation into long-term growth."
+    }
+  ],
+  "concept": "Lifestyle inflation & recurring spends"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "retirement-starting-young",
+  "order": 17,
+  "title": "Why Start Retirement Saving in Your 20s",
+  "concept": "Time is your biggest advantage",
+  "estimatedMinutes": 5,
+  "summary": "Starting to save for retirement early gives your money decades to compound, so even small amounts can grow large. Understanding EPF and long horizons shows why time matters more than the amount.",
+  "sections": [
+    {
+      "heading": "The Power of a Long Horizon",
+      "body": "Compounding means your returns start earning returns of their own, and this effect grows dramatically the longer money stays invested. Someone who begins in their 20s gives their savings an extra decade or two to grow compared with someone who starts in their 30s or 40s. This is why starting early often beats trying to save more later."
+    },
+    {
+      "heading": "EPF and Retirement Building Blocks",
+      "body": "For salaried employees in India, the Employees' Provident Fund (EPF) is a common retirement scheme where a portion of your salary is deducted and your employer also contributes. It earns interest over your career and is meant to be left untouched until retirement. Knowing how schemes like EPF work helps you see retirement saving as a habit built across decades, not a last-minute task."
+    },
+    {
+      "heading": "Small Now Beats Big Later",
+      "body": "Because of compounding, a modest amount invested consistently from a young age can end up larger than a bigger amount started much later. The hardest part is simply beginning, even with a small sum. The goal of this lesson is to show the concept of long-horizon saving, not to recommend any specific product."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "retirement-starting-young-q1",
+      "prompt": "Why does starting retirement saving in your 20s help so much?",
+      "options": ["Because money grows for more years through compounding", "Because young people pay no tax", "Because returns are guaranteed to be higher"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "retirement-starting-young-q2",
+      "prompt": "What is the EPF in India?",
+      "options": ["A short-term shopping loan", "A retirement scheme for salaried employees with employer contribution", "A type of car insurance"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "retirement-starting-young-q3",
+      "prompt": "What does 'compounding' mean?",
+      "options": ["Spending your returns immediately", "Paying extra fees each year", "Returns themselves starting to earn further returns"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "retirement-starting-young-q4",
+      "prompt": "Which statement best reflects the lesson?",
+      "options": ["Starting small but early can beat starting big but late", "You should only save once you earn a lot", "Retirement saving is pointless in your 20s"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "retirement-starting-young-q5",
+      "prompt": "How is EPF money meant to be used?",
+      "options": ["Spent every month on bills", "Withdrawn weekly for shopping", "Largely left to grow until retirement"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "tax-basics",
+  "order": 8,
+  "title": "Income Tax, Simply",
+  "concept": "Taxation basics, take-home pay",
+  "estimatedMinutes": 5,
+  "summary": "Tax is why your take-home is less than your CTC. You don't need to be an expert — just understand the slab idea, the difference between the old and new regimes, and that you should never spend only to 'save tax'.",
+  "sections": [
+    {
+      "heading": "Slabs, not a single rate",
+      "body": "Income tax is charged in slabs: different portions of your income are taxed at different rates. So earning a bit more never leaves you with less in hand — only the extra slice is taxed at the higher rate."
+    },
+    {
+      "heading": "Two regimes",
+      "body": "India has an old regime (more deductions, e.g. for certain investments and rent) and a new regime (lower rates, fewer deductions). Which is better depends on your situation; many use a simple calculator to compare."
+    },
+    {
+      "heading": "Don't let the tail wag the dog",
+      "body": "Some investments give tax benefits, which is a nice bonus. But spending or locking money only to save tax often costs you more than it saves. Choose good financial decisions first; let tax breaks be a side benefit."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "tax-q1",
+      "prompt": "Because income tax uses slabs, earning a little more:",
+      "options": [
+        "Can leave you with less money overall",
+        "Only taxes the extra portion at the higher rate",
+        "Taxes all your income at the top rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "tax-q2",
+      "prompt": "A sensible attitude to tax-saving investments is:",
+      "options": [
+        "Spend anything to reduce tax",
+        "Pick good decisions first; treat tax breaks as a bonus",
+        "Ignore taxes entirely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "tax-q3",
+      "prompt": "Compared with the old regime, India's new tax regime generally offers:",
+      "options": [
+        "Lower rates but fewer deductions",
+        "Higher rates and more deductions",
+        "No tax at all"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "tax-q4",
+      "prompt": "Why is your take-home pay lower than your CTC?",
+      "options": [
+        "Because tax and deductions are taken out",
+        "Because CTC is paid only once a year",
+        "Because the employer keeps half"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "tax-q5",
+      "prompt": "Which regime is 'better' for a given person?",
+      "options": [
+        "The old regime is always better",
+        "The new regime is always better",
+        "It depends on their situation; a calculator helps compare"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only — a simplified overview, not tax advice. Rules change; check current law or a professional."
+}

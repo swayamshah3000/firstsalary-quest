@@ -1,0 +1,19 @@
+{
+  "id": "m02-emergency-fund",
+  "month": 2,
+  "title": "The Shiny New Phone",
+  "scenario": "Your old phone still works, but a new model just dropped. You have some surplus this month. Start an emergency fund or buy the phone?",
+  "choices": [
+    {
+      "label": "Buy the new phone now",
+      "effects": { "cash": -25000, "lifestyleExpenses": 1500 },
+      "lesson": "Upgrading things that already work is 'lifestyle inflation'. It feels small each time but quietly eats money that could protect you later."
+    },
+    {
+      "label": "Start an emergency fund",
+      "effects": { "emergencyFund": 15000, "knowledge": 5 },
+      "lesson": "An emergency fund of 3-6 months of expenses is your first financial shock absorber. Build it before you chase upgrades."
+    }
+  ],
+  "concept": "Emergency fund vs lifestyle inflation"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "inflation-basics",
+  "order": 11,
+  "title": "Why Idle Cash Loses Value",
+  "concept": "Inflation and purchasing power",
+  "estimatedMinutes": 4,
+  "summary": "Inflation quietly reduces what your money can buy over time. This lesson explains why cash sitting idle slowly loses value and what that means for first-time earners.",
+  "sections": [
+    {
+      "heading": "What Inflation Is",
+      "body": "Inflation is the general rise in the prices of goods and services over time. When prices go up, each rupee buys a little less than it did before, so your purchasing power falls. In India, the price of everyday items like vegetables, fuel and rent tends to creep upward year after year."
+    },
+    {
+      "heading": "The Cost of Idle Cash",
+      "body": "Money left lying in a drawer or a zero-interest account does not grow, yet prices keep climbing around it. So even though the number of rupees stays the same, what those rupees can actually buy shrinks each year. This is why simply hoarding cash is not the same as protecting your wealth."
+    },
+    {
+      "heading": "Keeping Up With Prices",
+      "body": "To preserve purchasing power, money generally needs to earn a return at least equal to the inflation rate. A return below inflation means a real loss even if the rupee figure rises slightly. Understanding this trade-off helps you see why people consider options that aim to grow money over the long term rather than leaving it idle."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "inflation-basics-q1",
+      "prompt": "Inflation generally causes the prices of goods and services to:",
+      "options": ["Rise over time", "Stay exactly the same", "Always fall"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "inflation-basics-q2",
+      "prompt": "If prices rise but your cash earns no interest, your purchasing power:",
+      "options": ["Increases", "Stays fixed forever", "Decreases over time"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "inflation-basics-q3",
+      "prompt": "'Purchasing power' refers to:",
+      "options": ["How much your money can actually buy", "The number of bank accounts you hold", "Your monthly salary before tax"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "inflation-basics-q4",
+      "prompt": "For money to merely preserve its value, its return should be at least:",
+      "options": ["Zero", "Equal to the inflation rate", "Lower than the inflation rate"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "inflation-basics-q5",
+      "prompt": "Why is keeping large amounts of idle cash considered a hidden cost?",
+      "options": ["Cash physically wears out each year", "Banks charge to store it", "Inflation slowly erodes what it can buy"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

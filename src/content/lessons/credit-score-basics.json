@@ -1,0 +1,55 @@
+{
+  "id": "credit-score-basics",
+  "order": 14,
+  "title": "Credit Score Basics",
+  "concept": "How credit scores work",
+  "estimatedMinutes": 4,
+  "summary": "A credit score is a number that signals how reliably you repay borrowed money. This lesson explains what it is, what affects it, and how to build a healthy one.",
+  "sections": [
+    {
+      "heading": "What a Credit Score Is",
+      "body": "A credit score is a three-digit number, often ranging from around 300 to 900 in India, that summarises your track record of repaying loans and credit cards. Lenders look at it to judge how likely you are to repay new borrowing on time. A higher score generally signals lower risk to a lender."
+    },
+    {
+      "heading": "What Affects It",
+      "body": "Paying your bills and EMIs on time is one of the biggest factors, while missed or late payments can pull the score down. How much of your available credit limit you use, the length of your credit history, and how often you apply for new credit also play a role. Applying for many loans in a short span can look risky to lenders."
+    },
+    {
+      "heading": "Building a Good Score",
+      "body": "Paying every bill on time and in full is the simplest habit that helps your score grow. Keeping your credit-card usage well below the limit and avoiding too many new applications at once also helps. Checking your own report periodically lets you spot and correct any errors early."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "credit-score-basics-q1",
+      "prompt": "A credit score mainly tells a lender about your:",
+      "options": ["Monthly salary", "History of repaying borrowed money", "Number of bank accounts"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "credit-score-basics-q2",
+      "prompt": "Which habit most helps build a healthy credit score?",
+      "options": ["Paying bills and EMIs on time", "Missing payments occasionally", "Maxing out every credit card"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "credit-score-basics-q3",
+      "prompt": "Applying for many loans or cards in a short period tends to:",
+      "options": ["Always raise your score", "Look risky and can lower your score", "Have no effect whatsoever"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "credit-score-basics-q4",
+      "prompt": "Using only a small portion of your available credit limit generally:",
+      "options": ["Hurts your score badly", "Is viewed as a negative signal", "Is viewed favourably"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "credit-score-basics-q5",
+      "prompt": "Checking your own credit report periodically helps you:",
+      "options": ["Spot and correct errors early", "Guarantee loan approval", "Increase your salary"],
+      "correctIndex": 0
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

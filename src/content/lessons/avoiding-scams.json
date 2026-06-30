@@ -1,0 +1,75 @@
+{
+  "id": "avoiding-scams",
+  "order": 9,
+  "title": "Spotting Money Scams",
+  "concept": "Fraud awareness, finfluencers, digital safety",
+  "estimatedMinutes": 4,
+  "summary": "First-time earners are prime targets for scams: fake 'guaranteed return' schemes, loan-app traps, and pushy tips online. A few simple rules protect you from most of them.",
+  "sections": [
+    {
+      "heading": "If it's guaranteed and high, be suspicious",
+      "body": "Real investments don't promise high guaranteed returns. 'Double your money', 'assured 5% a month', or pressure to 'invest now before it's gone' are classic red flags of a scam or Ponzi scheme."
+    },
+    {
+      "heading": "Tips are not advice",
+      "body": "Social-media 'finfluencers' may be paid to promote products, and most are not registered advisers. Be especially wary of anyone selling a specific stock, fund, or course as a sure thing."
+    },
+    {
+      "heading": "Protect your details",
+      "body": "Never share OTPs, passwords, or card details. Be careful with unknown loan apps that demand huge permissions. When unsure, slow down — scammers rely on urgency and pressure."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "scam-q1",
+      "prompt": "Which is the biggest red flag of a scam?",
+      "options": [
+        "A boring, low-cost index fund",
+        "A 'guaranteed' high return with urgency to act now",
+        "An adviser who explains the risks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "scam-q2",
+      "prompt": "Someone calls asking for the OTP sent to your phone. You should:",
+      "options": [
+        "Share it to 'verify your account'",
+        "Never share it — no genuine service needs your OTP",
+        "Share only half of it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "scam-q3",
+      "prompt": "A social-media 'finfluencer' pushing a specific stock as a sure thing should be treated as:",
+      "options": [
+        "A registered adviser you can fully trust",
+        "Someone who may be paid to promote it and is often not a registered adviser",
+        "Always correct because they have many followers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "scam-q4",
+      "prompt": "Scammers most often rely on which tactic to push you?",
+      "options": [
+        "Urgency and pressure to act now",
+        "Giving you weeks to decide calmly",
+        "Explaining every risk in detail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "scam-q5",
+      "prompt": "An unknown loan app demands huge permissions on your phone. The safe response is to:",
+      "options": [
+        "Grant everything so the loan is approved faster",
+        "Be wary and avoid it — such demands are a red flag",
+        "Share your card details to speed it up"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

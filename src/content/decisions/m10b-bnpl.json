@@ -1,0 +1,19 @@
+{
+  "id": "m10b-bnpl",
+  "month": 10,
+  "title": "Buy Now, Pay Later",
+  "scenario": "At checkout for a ₹20,000 gadget, a 'Buy Now, Pay Later' option splits it into easy instalments with one tap. It feels painless. Do you use it?",
+  "choices": [
+    {
+      "label": "Tap 'Pay Later' — it's so easy",
+      "effects": { "addLoan": { "label": "BNPL", "principal": 20000, "annualRate": 24, "months": 6 }, "lifestyleExpenses": 600 },
+      "lesson": "BNPL is still debt, often at high effective interest. By removing the 'pain' of paying, it nudges you to buy things you'd otherwise skip."
+    },
+    {
+      "label": "Pay in full or skip the buy",
+      "effects": { "knowledge": 5 },
+      "lesson": "If you can't comfortably pay in full, that's a signal you can't really afford it yet. The easiest debt to manage is the debt you never take."
+    }
+  ],
+  "concept": "Buy Now Pay Later & frictionless debt"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m08b-term-cover",
+  "month": 8,
+  "title": "Someone Depends on You Now",
+  "scenario": "Your family relies partly on your income. An advisor suggests a pure term insurance plan with a large cover for a small premium. Worth it?",
+  "choices": [
+    {
+      "label": "Skip it — insurance feels morbid",
+      "effects": { "knowledge": -2 },
+      "lesson": "Term insurance isn't about you; it's about the people who'd struggle financially without your income. If anyone depends on you, it matters."
+    },
+    {
+      "label": "Buy a large, cheap term cover",
+      "effects": { "insurance": { "term": 10000000 }, "baseExpenses": 700 },
+      "lesson": "Term insurance gives a large payout for a tiny premium because it's pure protection. A rough guide is around 10x your annual income."
+    }
+  ],
+  "concept": "Term insurance for dependents"
+}

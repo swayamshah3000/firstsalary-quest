@@ -1,0 +1,19 @@
+{
+  "id": "m11d-car-purchase",
+  "month": 11,
+  "title": "The First Car",
+  "scenario": "You are eyeing a new ₹9,00,000 hatchback on a loan, with EMIs near ₹16,000 a month. Beyond the EMI, you will face fuel, insurance, servicing and parking of around ₹8,000 monthly. A reliable used car at ₹3,50,000 would cover the same commute. The showroom is pushing the new model hard.",
+  "choices": [
+    {
+      "label": "Buy a sensible used car you can largely pay for in cash, keeping running costs modest",
+      "effects": { "cash": -350000, "baseExpenses": 5000, "knowledge": 5 },
+      "lesson": "A car's true cost is the EMI plus fuel, insurance and upkeep; buying used and within budget keeps that ownership burden manageable."
+    },
+    {
+      "label": "Take the loan for the brand-new hatchback",
+      "effects": { "addLoan": { "label": "Car loan", "principal": 800000, "annualRate": 10, "months": 60 }, "baseExpenses": 8000 },
+      "lesson": "A new car loses value the moment you drive it off the lot, while the EMI and recurring costs squeeze your monthly cash flow for years."
+    }
+  ],
+  "concept": "Cost of ownership"
+}

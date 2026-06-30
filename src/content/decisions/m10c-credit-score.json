@@ -1,0 +1,19 @@
+{
+  "id": "m10c-credit-score",
+  "month": 10,
+  "title": "Building Your Credit Score",
+  "scenario": "Your first credit card bill of ₹18,000 is due. The app offers a tempting 'minimum due' of just ₹900, which would let you keep more cash this month. You know your credit score will matter when you apply for a home loan in a few years.",
+  "choices": [
+    {
+      "label": "Pay the full ₹18,000 bill on or before the due date, every month",
+      "effects": { "cash": -18000, "knowledge": 5 },
+      "lesson": "Paying bills in full and on time is the strongest driver of a healthy credit score, and avoids steep revolving interest."
+    },
+    {
+      "label": "Pay only the minimum due and carry the rest forward",
+      "effects": { "cash": -900, "addLoan": { "label": "Revolving card balance", "principal": 17100, "annualRate": 42, "months": 12 } },
+      "lesson": "Paying only the minimum triggers interest near 40% a year on the balance and signals risk, dragging your score down."
+    }
+  ],
+  "concept": "Credit score health"
+}

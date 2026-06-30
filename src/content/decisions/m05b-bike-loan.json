@@ -1,0 +1,19 @@
+{
+  "id": "m05b-bike-loan",
+  "month": 5,
+  "title": "A Bike to Beat the Commute",
+  "scenario": "Your daily commute is painful. A new bike on a ₹90,000 loan would help, but public transport is far cheaper. What's the call?",
+  "choices": [
+    {
+      "label": "Take the bike loan now",
+      "effects": { "addLoan": { "label": "Bike Loan", "principal": 90000, "annualRate": 12, "months": 24 }, "baseExpenses": 1200 },
+      "lesson": "A vehicle is a convenience, not an investment — it depreciates and adds fuel, service and EMI costs. Borrow for it only if you truly need it."
+    },
+    {
+      "label": "Stick with public transport for now",
+      "effects": { "knowledge": 4, "emergencyFund": 2000 },
+      "lesson": "Delaying a depreciating purchase keeps your cash flow free. You can always buy later, in cash, once your basics are solid."
+    }
+  ],
+  "concept": "Borrowing for convenience vs need"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "risk-and-diversification",
+  "order": 13,
+  "title": "Risk and Diversification",
+  "concept": "Spreading risk across assets",
+  "estimatedMinutes": 5,
+  "summary": "Every investment carries some risk, but spreading money across different assets can soften the blow when one performs poorly. This lesson covers risk, diversification and the basics of asset allocation.",
+  "sections": [
+    {
+      "heading": "What Risk Means",
+      "body": "Risk is the chance that an investment performs differently from what you hoped, including losing value. Generally, investments that offer the potential for higher returns also carry higher risk, while safer options tend to grow more slowly. There is no option that is both completely safe and high-returning, so understanding this trade-off matters."
+    },
+    {
+      "heading": "Not All Eggs in One Basket",
+      "body": "Diversification means spreading your money across many investments rather than placing it all in one. If one holding falls sharply, others may hold steady or rise, which cushions the overall impact. This is the financial version of the old saying about not putting all your eggs in one basket."
+    },
+    {
+      "heading": "Asset Allocation Basics",
+      "body": "Asset allocation is how you split money across broad categories such as equity, debt and cash. A mix weighted more towards equity tends to be more volatile but may grow faster over long periods, while more debt and cash is steadier but slower. The right balance depends on your goals and how long you can stay invested."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "risk-and-diversification-q1",
+      "prompt": "In investing, higher potential returns usually come with:",
+      "options": ["Lower risk", "Higher risk", "No risk at all"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "risk-and-diversification-q2",
+      "prompt": "Diversification mainly works by:",
+      "options": ["Putting all money in one strong stock", "Spreading money across many investments", "Avoiding investing altogether"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "risk-and-diversification-q3",
+      "prompt": "'Asset allocation' refers to:",
+      "options": ["Splitting money across categories like equity, debt and cash", "The fee charged by a fund", "The tax deducted from salary"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "risk-and-diversification-q4",
+      "prompt": "A portfolio weighted heavily towards equity is generally:",
+      "options": ["More volatile but may grow faster over the long term", "Completely free of any risk", "Guaranteed to lose money"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "risk-and-diversification-q5",
+      "prompt": "The saying 'don't put all your eggs in one basket' best illustrates:",
+      "options": ["Paying off debt", "Diversification", "Reading a payslip"],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

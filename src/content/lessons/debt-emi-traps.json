@@ -1,0 +1,75 @@
+{
+  "id": "debt-emi-traps",
+  "order": 5,
+  "title": "Debt, EMIs & Credit Card Traps",
+  "concept": "Good vs bad debt, EMIs, credit cards, BNPL",
+  "estimatedMinutes": 5,
+  "summary": "Borrowing brings future money into the present — at a cost. EMIs and 'pay later' offers make wants feel affordable while quietly committing your future income. High-interest debt like credit-card balances is the most dangerous.",
+  "sections": [
+    {
+      "heading": "What debt really does",
+      "body": "A loan lets you buy now and pay later, plus interest. For an appreciating asset or a genuine need it can make sense; for a depreciating want it usually doesn't."
+    },
+    {
+      "heading": "The EMI illusion",
+      "body": "A 'small' monthly EMI hides the full price and the interest. Several EMIs stacked together can lock up a big share of your salary before you've spent on anything else."
+    },
+    {
+      "heading": "The credit-card trap",
+      "body": "Credit cards are great if you pay the full bill every month. Paying only the 'minimum due' carries the rest at very high interest (often ~36% a year) — one of the fastest ways to fall into a debt spiral."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "debt-q1",
+      "prompt": "Paying only the 'minimum due' on a credit card means:",
+      "options": [
+        "You owe nothing more",
+        "The rest carries at very high interest",
+        "You earn extra rewards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "debt-q2",
+      "prompt": "Borrowing usually makes the least sense for:",
+      "options": [
+        "A depreciating want like a fancier phone",
+        "An emergency you can't otherwise cover",
+        "An asset that may grow in value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "debt-q3",
+      "prompt": "The 'EMI illusion' refers to how a small monthly EMI:",
+      "options": [
+        "Hides the full price and the interest you pay",
+        "Reduces the total cost of an item",
+        "Earns you cashback every month"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "debt-q4",
+      "prompt": "Roughly what annual interest can an unpaid credit-card balance carry?",
+      "options": [
+        "About 4% a year",
+        "About 12% a year",
+        "Often around 36% a year"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "debt-q5",
+      "prompt": "What is the main risk of stacking several EMIs together?",
+      "options": [
+        "They lock up a big share of your salary before you've spent on anything else",
+        "They improve your monthly cash flow",
+        "They reduce the total interest you pay"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

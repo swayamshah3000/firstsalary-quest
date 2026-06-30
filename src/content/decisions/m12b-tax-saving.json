@@ -1,0 +1,19 @@
+{
+  "id": "m12b-tax-saving",
+  "month": 12,
+  "title": "Tax-Saving Season",
+  "scenario": "It's tax-planning season. You can invest in tax-saving instruments (like ELSS or PPF) that also build long-term wealth, or scramble for random receipts. What do you do?",
+  "choices": [
+    {
+      "label": "Buy random stuff just to save tax",
+      "effects": { "cash": -25000, "lifestyleExpenses": 1000 },
+      "lesson": "Spending money only to 'save tax' is backwards — you lose more than you save. Tax breaks should reward things you'd want to do anyway."
+    },
+    {
+      "label": "Use a tax-saving investment",
+      "effects": { "startSip": { "label": "ELSS / PPF", "monthly": 4000, "annualReturn": 11 }, "knowledge": 7 },
+      "lesson": "Some tax-saving options double as long-term investments — you reduce tax and build wealth at once. Plan them early, not in a last-minute panic."
+    }
+  ],
+  "concept": "Basic tax planning & 80C-style investing"
+}

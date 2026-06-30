@@ -1,0 +1,19 @@
+{
+  "id": "m11-upskilling",
+  "month": 11,
+  "title": "Asset or Liability?",
+  "scenario": "A ₹40,000 certification course could boost your skills and future salary. The same money could buy a fancier phone. Which is the better 'investment'?",
+  "choices": [
+    {
+      "label": "Buy the upgraded phone",
+      "effects": { "cash": -40000, "lifestyleExpenses": 800 },
+      "lesson": "A phone on EMI or cash is a lifestyle liability — it loses value and adds running costs. It rarely earns anything back."
+    },
+    {
+      "label": "Pay for the upskilling course",
+      "effects": { "cash": -40000, "knowledge": 12 },
+      "lesson": "Spending on skills can be a career asset: it may raise your future income, unlike a depreciating gadget. Assets put money in your pocket; liabilities take it out."
+    }
+  ],
+  "concept": "Assets vs liabilities (Rich Dad-style thinking)"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m02d-sale-impulse",
+  "month": 2,
+  "title": "The Midnight Sale",
+  "scenario": "A big online sale is on and a ₹35,000 smartphone you have been eyeing is now ₹28,000. Your current phone works perfectly fine. The countdown timer and 'only 3 left' banner are pushing you to buy right now.",
+  "choices": [
+    {
+      "label": "Add it to your wishlist and revisit after 48 hours",
+      "effects": { "knowledge": 5 },
+      "lesson": "A cooling-off period defuses urgency tactics. If you still want it in two days and can afford it, it is a real need rather than an impulse."
+    },
+    {
+      "label": "Buy it now before the deal disappears",
+      "effects": { "cash": -28000 },
+      "lesson": "Sales manufacture urgency to short-circuit your judgement. A discount on something you did not need is still money spent, not money saved."
+    }
+  ],
+  "concept": "Impulse spending and urgency tactics"
+}

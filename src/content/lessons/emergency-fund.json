@@ -1,0 +1,75 @@
+{
+  "id": "emergency-fund",
+  "order": 2,
+  "title": "Why an Emergency Fund Comes First",
+  "concept": "Emergency fund",
+  "estimatedMinutes": 4,
+  "summary": "Before investing or upgrading your lifestyle, set aside 3-6 months of essential expenses in a safe, easy-to-reach account. It absorbs shocks like a job loss or medical bill without forcing you into debt.",
+  "sections": [
+    {
+      "heading": "What it is",
+      "body": "An emergency fund is cash kept aside only for genuine emergencies — not holidays, not gadgets. It lives somewhere safe and liquid, like a savings account or a liquid fund."
+    },
+    {
+      "heading": "How big should it be?",
+      "body": "A common starting target is 3 months of essential expenses, building toward 6 months. Higher if your income is irregular (freelance) or you support family."
+    },
+    {
+      "heading": "Why it comes before investing",
+      "body": "Without a buffer, one surprise bill can force you to sell investments at a bad time or borrow at high interest. The fund is what lets your long-term money stay invested."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "ef-q1",
+      "prompt": "An emergency fund is best kept in:",
+      "options": [
+        "A volatile stock you can sell anytime",
+        "A safe, liquid account you can access quickly",
+        "A 5-year locked fixed deposit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "ef-q2",
+      "prompt": "A reasonable starting target for an emergency fund is:",
+      "options": [
+        "3 months of essential expenses",
+        "3 days of salary",
+        "Whatever is left after shopping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "ef-q3",
+      "prompt": "Who should usually keep a larger emergency fund (closer to 6 months)?",
+      "options": [
+        "Someone with a stable salaried job and no dependents",
+        "Someone with irregular freelance income or family to support",
+        "Someone who already has lots of credit cards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "ef-q4",
+      "prompt": "An emergency fund is meant to be used for:",
+      "options": [
+        "A planned holiday or a new gadget",
+        "A genuine emergency like a job loss or medical bill",
+        "Buying more stocks when markets fall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "ef-q5",
+      "prompt": "Why does an emergency fund come before investing?",
+      "options": [
+        "It lets your long-term money stay invested instead of being sold at a bad time",
+        "It earns higher returns than any investment",
+        "Investing is not allowed without one"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m12c-annual-review",
+  "month": 12,
+  "title": "Year-End Money Review",
+  "scenario": "It is December and a year of earning is behind you. You could sit down for an afternoon to review your spending, check that your insurance and emergency fund are adequate, and rebalance your investments. Or you could assume 'set and forget' is good enough and enjoy the holidays.",
+  "choices": [
+    {
+      "label": "Run a proper annual review and rebalance your portfolio back to target",
+      "effects": { "knowledge": 5, "emergencyFund": 5000 },
+      "lesson": "An annual review catches drift, under-insurance and stale goals; rebalancing locks in gains and keeps your risk level intentional."
+    },
+    {
+      "label": "Skip the review and let everything run as-is for another year",
+      "effects": {},
+      "lesson": "Without periodic check-ins, asset allocation drifts, cover gaps go unnoticed and small leaks in spending quietly compound."
+    }
+  ],
+  "concept": "Annual financial review"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m01c-relocation-costs",
+  "month": 1,
+  "title": "Costs of the First Flat",
+  "scenario": "You have found a flat for ₹15,000/month rent. The landlord wants a two-month security deposit (₹30,000) and the broker is asking a one-month fee (₹15,000). A friend offers to introduce you to a no-broker listing nearby, but it means waiting another two weeks and a few more viewings.",
+  "choices": [
+    {
+      "label": "Wait two weeks and take the no-broker flat to skip the ₹15,000 fee",
+      "effects": { "cash": -30000, "knowledge": 5 },
+      "lesson": "Broker fees are negotiable or avoidable. A short wait can save a full month's rent that adds nothing to your living standard."
+    },
+    {
+      "label": "Grab this flat now and pay deposit plus broker fee",
+      "effects": { "cash": -45000 },
+      "lesson": "Convenience has a price. The security deposit is refundable later, but the broker fee is gone for good, so weigh urgency against the cost."
+    }
+  ],
+  "concept": "One-time relocation costs"
+}

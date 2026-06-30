@@ -1,0 +1,19 @@
+{
+  "id": "m07b-first-hike",
+  "month": 7,
+  "title": "Your First Salary Hike",
+  "scenario": "You get a 15% raise — about ₹7,500 more a month. Your instinct is to finally upgrade your lifestyle. What do you do with the extra?",
+  "choices": [
+    {
+      "label": "Upgrade my lifestyle to match",
+      "effects": { "lifestyleExpenses": 6000 },
+      "lesson": "If every raise instantly becomes higher spending, you never actually get ahead — your costs simply rise with your income."
+    },
+    {
+      "label": "Step up my SIP with the raise",
+      "effects": { "startSip": { "label": "Step-up SIP", "monthly": 5000, "annualReturn": 12 }, "lifestyleExpenses": 1500, "knowledge": 6 },
+      "lesson": "Directing most of each raise into investments — before you get used to the money — is one of the most powerful wealth habits."
+    }
+  ],
+  "concept": "Step-up investing & raises vs lifestyle creep"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m07d-lending-friend",
+  "month": 7,
+  "title": "A Friend in Need",
+  "scenario": "A close college friend calls in a panic and asks to borrow ₹50,000 to cover a medical bill, promising to repay 'in a couple of months'. You have ₹80,000 sitting in your emergency fund. Saying no feels harsh, but lending could leave you exposed.",
+  "choices": [
+    {
+      "label": "Offer a smaller ₹10,000 gift you can absorb, and help them find a proper source for the rest",
+      "effects": { "cash": -10000, "knowledge": 5 },
+      "lesson": "Lend only what you can afford to lose; gifting a smaller, fixed sum protects both the friendship and your safety net."
+    },
+    {
+      "label": "Hand over the full ₹50,000 from your emergency fund on a verbal promise",
+      "effects": { "emergencyFund": -50000 },
+      "lesson": "Draining your emergency fund on an informal loan leaves you one crisis away from debt, and unpaid loans often end friendships."
+    }
+  ],
+  "concept": "Lending within your means"
+}

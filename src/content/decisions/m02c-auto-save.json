@@ -1,0 +1,19 @@
+{
+  "id": "m02c-auto-save",
+  "month": 2,
+  "title": "Pay Yourself First",
+  "scenario": "Your salary of ₹45,000 lands on the 1st of each month. By the time you reach the 25th, your account is usually almost empty and you have saved nothing. Your bank lets you set up an automatic transfer to a separate savings account the day after payday.",
+  "choices": [
+    {
+      "label": "Set up an auto-transfer of ₹6,000 to savings on salary day",
+      "effects": { "emergencyFund": 6000, "knowledge": 5 },
+      "lesson": "Paying yourself first treats savings as a fixed bill. Automating it on payday means you save before you have a chance to spend."
+    },
+    {
+      "label": "Skip it and promise to save whatever is left at month-end",
+      "effects": { "knowledge": -3 },
+      "lesson": "Saving 'what's left over' usually leaves nothing. Without automation, spending always expands to fill the available balance."
+    }
+  ],
+  "concept": "Paying yourself first"
+}

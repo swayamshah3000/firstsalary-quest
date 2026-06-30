@@ -1,0 +1,19 @@
+{
+  "id": "m09d-gold-loan",
+  "month": 9,
+  "title": "Borrowing Against Gold",
+  "scenario": "A limited-edition phone you want costs ₹70,000 and you are ₹40,000 short. A lender offers a gold loan against your mother's bangles at around 14% interest. The gadget is a pure want, not a need, and the gold is family jewellery.",
+  "choices": [
+    {
+      "label": "Skip the loan, save up for two more months, and buy it in cash",
+      "effects": { "knowledge": 5 },
+      "lesson": "Borrowing for a discretionary want means paying interest for something you could simply wait and save for."
+    },
+    {
+      "label": "Take the gold loan now so you do not miss the launch offer",
+      "effects": { "cash": 40000, "addLoan": { "label": "Gold loan for phone", "principal": 40000, "annualRate": 14, "months": 12 } },
+      "lesson": "Pledging family gold for a want puts a meaningful asset at risk of forfeiture and adds interest cost to a depreciating gadget."
+    }
+  ],
+  "concept": "Borrowing for wants"
+}

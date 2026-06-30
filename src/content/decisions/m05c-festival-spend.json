@@ -1,0 +1,19 @@
+{
+  "id": "m05c-festival-spend",
+  "month": 5,
+  "title": "Festival and Wedding Season",
+  "scenario": "It is festival and wedding season, and the invitations are piling up. Between gifts, new outfits and travel, you could easily spend ₹30,000 this month. Family expects generous gifting, but that figure would wipe out your savings for the month and then some.",
+  "choices": [
+    {
+      "label": "Set a ₹12,000 festival budget and choose thoughtful, modest gifts",
+      "effects": { "cash": -12000, "knowledge": 5 },
+      "lesson": "A pre-set celebration budget lets you join in joyfully without regret. Thoughtfulness, not spend, is what people actually remember."
+    },
+    {
+      "label": "Spend freely to match everyone else's gifting and outfits",
+      "effects": { "cash": -30000 },
+      "lesson": "Social pressure can blow a hole in a single month's finances. Celebrations should fit your budget, not someone else's expectations."
+    }
+  ],
+  "concept": "Budgeting for seasonal spending"
+}

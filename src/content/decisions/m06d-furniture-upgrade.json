@@ -1,0 +1,19 @@
+{
+  "id": "m06d-furniture-upgrade",
+  "month": 6,
+  "title": "Furnishing a Rented Flat",
+  "scenario": "Your rented flat feels bare and you want it to feel like home. A full upgrade, a new sofa, a smart TV and a fridge, would cost about ₹60,000. But you may move again in a year when your lease ends, and large appliances are awkward to shift.",
+  "choices": [
+    {
+      "label": "Buy only essentials now and consider renting larger appliances",
+      "effects": { "cash": -12000, "knowledge": 5 },
+      "lesson": "In a rental you may move, big purchases are hard to relocate and lose value fast. Match what you own to how settled you actually are."
+    },
+    {
+      "label": "Fully furnish now with a sofa, TV and fridge",
+      "effects": { "cash": -60000 },
+      "lesson": "Upgrading a temporary home ties up a lot of cash in items you may have to sell cheaply or haul around. Comfort can wait for stability."
+    }
+  ],
+  "concept": "Spending in line with stability"
+}

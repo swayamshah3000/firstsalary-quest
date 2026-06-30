@@ -1,0 +1,55 @@
+{
+  "id": "mutual-funds-explained",
+  "order": 12,
+  "title": "Mutual Funds Explained",
+  "concept": "Pooled investing and expense ratios",
+  "estimatedMinutes": 5,
+  "summary": "Mutual funds let many investors pool money that a fund manager invests on their behalf. This lesson compares funds with direct stocks, active with passive funds, and explains the expense ratio.",
+  "sections": [
+    {
+      "heading": "Funds vs Direct Stocks",
+      "body": "Buying direct stocks means choosing individual companies yourself and bearing the full ups and downs of each one. A mutual fund instead pools money from many investors and spreads it across many securities, which spurns the need to pick every stock yourself. This built-in spreading of money is one reason beginners often find funds easier to start with than direct stocks."
+    },
+    {
+      "heading": "Active vs Passive (Index) Funds",
+      "body": "An active fund has a manager who tries to beat the market by selecting investments, and you pay more for that effort. A passive or index fund simply tracks a market index, such as a broad Indian index, and aims to match it rather than beat it. Because passive funds do less buying and selling, they usually charge lower fees."
+    },
+    {
+      "heading": "The Expense Ratio",
+      "body": "The expense ratio is the annual fee a fund charges, expressed as a percentage of the money you have invested. Even a small difference in this percentage can add up significantly over many years because it is deducted every year. Comparing expense ratios is a key way to understand the cost of holding a particular fund."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "mutual-funds-explained-q1",
+      "prompt": "A mutual fund is best described as:",
+      "options": ["A single company's share", "Pooled money invested across many securities", "A government savings bond"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "mutual-funds-explained-q2",
+      "prompt": "A passive (index) fund mainly aims to:",
+      "options": ["Beat the market by a wide margin", "Track and match a market index", "Avoid the stock market entirely"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "mutual-funds-explained-q3",
+      "prompt": "The expense ratio represents:",
+      "options": ["The annual fee charged by the fund", "The fund's guaranteed yearly return", "A one-time joining bonus"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "mutual-funds-explained-q4",
+      "prompt": "Compared with active funds, passive index funds typically have:",
+      "options": ["Higher fees", "Lower fees", "No fees at all, ever"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "mutual-funds-explained-q5",
+      "prompt": "One advantage of a mutual fund over picking single stocks yourself is that it:",
+      "options": ["Guarantees you will never lose money", "Spreads your money across many securities", "Pays a fixed monthly salary"],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

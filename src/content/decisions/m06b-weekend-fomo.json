@@ -1,0 +1,19 @@
+{
+  "id": "m06b-weekend-fomo",
+  "month": 6,
+  "title": "Every Weekend Is a Plan",
+  "scenario": "Your friend group now does weekend trips and fancy brunches almost every week. Saying no feels like missing out. How do you handle the FOMO?",
+  "choices": [
+    {
+      "label": "Say yes to everything",
+      "effects": { "lifestyleExpenses": 5000 },
+      "lesson": "Social FOMO is a major driver of lifestyle inflation. Every 'just this once' that becomes weekly quietly resets your spending baseline."
+    },
+    {
+      "label": "Join some, set a fun budget",
+      "effects": { "lifestyleExpenses": 1500, "knowledge": 4 },
+      "lesson": "You don't have to say no to fun — just give it a budget. Deciding the number in advance lets you enjoy guilt-free without overspending."
+    }
+  ],
+  "concept": "Social spending & budgeting for fun"
+}

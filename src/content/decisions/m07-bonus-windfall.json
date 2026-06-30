@@ -1,0 +1,19 @@
+{
+  "id": "m07-bonus-windfall",
+  "month": 7,
+  "title": "A Surprise Bonus",
+  "scenario": "Your company hands you a ₹40,000 performance bonus. Your first instinct is a quick getaway. What do you actually do with it?",
+  "choices": [
+    {
+      "label": "Book a vacation",
+      "effects": { "cash": -40000, "lifestyleExpenses": 1000 },
+      "lesson": "Windfalls feel like 'free money', but spending all of it raises your lifestyle baseline. Enjoying part and saving part keeps you ahead."
+    },
+    {
+      "label": "Top up the emergency fund",
+      "effects": { "emergencyFund": 30000, "knowledge": 5 },
+      "lesson": "A windfall is the easiest time to strengthen your safety net, because you weren't relying on that money anyway."
+    }
+  ],
+  "concept": "Handling windfalls & bonuses"
+}

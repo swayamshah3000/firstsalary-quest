@@ -1,0 +1,19 @@
+{
+  "id": "m01-first-rent",
+  "month": 1,
+  "title": "Your First Place to Stay",
+  "scenario": "Your first salary just landed. A private 1BHK near the office costs a lot more than a shared flat 40 minutes away. Where do you move in?",
+  "choices": [
+    {
+      "label": "Rent a solo 1BHK near work",
+      "effects": { "baseExpenses": 9000, "lifestyleExpenses": 1000 },
+      "lesson": "Housing is usually a first earner's biggest cost. Locking in high rent early raises your baseline spending for every future month."
+    },
+    {
+      "label": "Share a flat further out",
+      "effects": { "baseExpenses": -2000, "knowledge": 5 },
+      "lesson": "Keeping rent near 25-30% of take-home pay frees up money to save and invest while your income is still small."
+    }
+  ],
+  "concept": "Housing affordability & the 30% rent rule"
+}

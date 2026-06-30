@@ -1,0 +1,19 @@
+{
+  "id": "m08c-critical-illness",
+  "month": 8,
+  "title": "Cover for the Big Risks",
+  "scenario": "You already have a basic health policy, but a colleague's cancer treatment recently drained their family's savings despite hospital cover, because of income loss and non-hospital costs. A critical illness rider costs about ₹800 a month and pays a lump sum on diagnosis of major illnesses. Worth it?",
+  "choices": [
+    {
+      "label": "Add critical illness cover to bridge the gap your hospital policy leaves",
+      "effects": { "insurance": { "criticalIllness": 1000000 }, "baseExpenses": 800, "knowledge": 5 },
+      "lesson": "Critical illness cover pays a lump sum on diagnosis, replacing lost income and costs that a standard health policy never touches."
+    },
+    {
+      "label": "Skip it for now and spend the money on a gadget upgrade",
+      "effects": { "cash": -9600, "lifestyleExpenses": 0 },
+      "lesson": "A serious diagnosis can wipe out years of savings; skipping affordable protection is a gamble against your own future earnings."
+    }
+  ],
+  "concept": "Critical illness cover"
+}

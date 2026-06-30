@@ -1,0 +1,19 @@
+{
+  "id": "m10d-personal-loan-vacation",
+  "month": 10,
+  "title": "Vacation on EMI",
+  "scenario": "Your friends are booking a ₹90,000 international trip and the group chat is buzzing. A bank pre-approves you for a personal loan at 16% to fund it, with 'easy' EMIs of about ₹3,200 over three years. You have only ₹20,000 set aside for travel.",
+  "choices": [
+    {
+      "label": "Do a cheaper domestic trip within your ₹20,000 budget and plan the big one next year",
+      "effects": { "cash": -20000, "knowledge": 5 },
+      "lesson": "Matching your plans to your savings keeps memories debt-free; experiences funded by loans are paid for long after they end."
+    },
+    {
+      "label": "Take the personal loan and join the international trip",
+      "effects": { "addLoan": { "label": "Personal loan for vacation", "principal": 90000, "annualRate": 16, "months": 36 } },
+      "lesson": "Financing a vacation means paying interest for years on a one-week experience, often costing far more than the sticker price."
+    }
+  ],
+  "concept": "Debt for lifestyle"
+}

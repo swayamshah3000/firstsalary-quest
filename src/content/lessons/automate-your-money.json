@@ -1,0 +1,55 @@
+{
+  "id": "automate-your-money",
+  "order": 20,
+  "title": "Automate Your Money",
+  "concept": "Build a simple money system",
+  "estimatedMinutes": 4,
+  "summary": "Automating your savings and bills removes the need for willpower every month. A simple system that pays yourself first helps money habits run on autopilot.",
+  "sections": [
+    {
+      "heading": "Pay Yourself First",
+      "body": "Paying yourself first means setting aside savings as soon as your salary arrives, before you spend on anything else. This flips the usual habit of saving only whatever is left over, which is often nothing. When savings come off the top automatically, you adjust your spending to what remains."
+    },
+    {
+      "heading": "Automate SIPs and Savings",
+      "body": "A Systematic Investment Plan (SIP) lets a fixed amount move into an investment on a set date each month without you having to act. Automating transfers to savings or investments on payday makes the habit consistent and removes the temptation to skip a month. The point here is the system, not any particular fund or product."
+    },
+    {
+      "heading": "Automate Bills and Review",
+      "body": "Setting up auto-payments for recurring bills like rent, electricity and subscriptions helps you avoid late fees and missed dates. Once your system is running, a short monthly review is enough to check that everything went through and nothing is wasteful. A simple, automated system frees your attention for bigger decisions."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "automate-your-money-q1",
+      "prompt": "What does 'pay yourself first' mean?",
+      "options": ["Save before spending on anything else", "Spend first and save what is left", "Pay all your friends back first"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "automate-your-money-q2",
+      "prompt": "What is a SIP?",
+      "options": ["A type of overdraft", "A fixed amount invested automatically on a set date each month", "A one-time lump-sum withdrawal"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "automate-your-money-q3",
+      "prompt": "Why automate transfers on payday?",
+      "options": ["To pay more tax", "To make the bank richer", "To keep the saving habit consistent and avoid skipping"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "automate-your-money-q4",
+      "prompt": "A benefit of auto-paying recurring bills is:",
+      "options": ["Avoiding late fees and missed due dates", "Earning guaranteed investment returns", "Removing the need to ever check your account"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "automate-your-money-q5",
+      "prompt": "Even with automation, what is still useful to do?",
+      "options": ["Share your passwords widely", "Ignore your accounts entirely", "Do a short monthly review of your system"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

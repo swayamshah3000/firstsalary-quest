@@ -1,0 +1,19 @@
+{
+  "id": "m08-accident-cover",
+  "month": 8,
+  "title": "The Two-Wheeler Commute",
+  "scenario": "You commute daily on a two-wheeler. A ₹10 lakh personal accident cover costs very little per month. Worth it, or an unnecessary expense?",
+  "choices": [
+    {
+      "label": "Skip it — I'm a careful rider",
+      "effects": { "knowledge": -2 },
+      "lesson": "Accidents don't ask how careful you are. An income-earner losing the ability to work is exactly the risk personal accident cover is built for."
+    },
+    {
+      "label": "Add a ₹10L personal accident cover",
+      "effects": { "insurance": { "accident": 1000000 }, "baseExpenses": 200 },
+      "lesson": "Personal accident cover is cheap because it's pure protection. For a young earner with a risky commute, it plugs a real gap."
+    }
+  ],
+  "concept": "Personal accident cover (protection pillar)"
+}

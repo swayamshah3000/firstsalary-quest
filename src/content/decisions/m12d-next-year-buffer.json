@@ -1,0 +1,19 @@
+{
+  "id": "m12d-next-year-buffer",
+  "month": 12,
+  "title": "Buffer for the Year Ahead",
+  "scenario": "Your emergency fund covers about three months of expenses. With rumours of layoffs in your sector and a possible rent hike next year, you wonder whether to stretch it to a sturdier six months. Topping it up means diverting ₹30,000 from money you had earmarked for a gadget upgrade.",
+  "choices": [
+    {
+      "label": "Top up the emergency fund toward six months of expenses",
+      "effects": { "emergencyFund": 30000, "knowledge": 5 },
+      "lesson": "A six-month buffer lets you survive job loss or shocks without selling investments at a bad time or taking on debt."
+    },
+    {
+      "label": "Keep three months' cover and spend the ₹30,000 on the upgrade",
+      "effects": { "cash": -30000, "lifestyleExpenses": 0 },
+      "lesson": "A thin emergency fund is the first thing tested in a downturn; in uncertain times, a deeper buffer beats a discretionary purchase."
+    }
+  ],
+  "concept": "Emergency fund depth"
+}

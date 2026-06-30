@@ -1,0 +1,19 @@
+{
+  "id": "m06c-online-sale",
+  "month": 6,
+  "title": "The Big Festive Sale",
+  "scenario": "The year's biggest online shopping festival is live. Your cart has slowly filled with ₹22,000 of 'great deals': headphones, clothes, a smartwatch and kitchen gadgets, most of which you had not planned to buy. EMI options make it all feel painless.",
+  "choices": [
+    {
+      "label": "Buy only the one item you had genuinely planned for and clear the rest of the cart",
+      "effects": { "cash": -4000, "knowledge": 5 },
+      "lesson": "A shopping list is your defence against sales. Decide what you need before the sale, not while staring at the discounts."
+    },
+    {
+      "label": "Check out the whole cart on a no-cost EMI",
+      "effects": { "addLoan": { "label": "Festive sale EMI", "principal": 22000, "annualRate": 15, "months": 6 } },
+      "lesson": "'No-cost EMI' still commits future income and often hides fees. Splitting a payment does not make an unplanned purchase a good idea."
+    }
+  ],
+  "concept": "Sale-driven overspending and EMIs"
+}

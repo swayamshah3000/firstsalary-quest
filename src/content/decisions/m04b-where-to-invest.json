@@ -1,0 +1,19 @@
+{
+  "id": "m04b-where-to-invest",
+  "month": 4,
+  "title": "Gold, FD, or Index Fund?",
+  "scenario": "You're ready to invest ₹5,000 a month for the long term. Relatives suggest gold or a fixed deposit; a colleague suggests a low-cost index fund. Where do you start?",
+  "choices": [
+    {
+      "label": "Play it safe in a fixed deposit",
+      "effects": { "startSip": { "label": "Recurring Deposit", "monthly": 5000, "annualReturn": 6 }, "knowledge": 2 },
+      "lesson": "FDs are safe and predictable, but their returns often barely beat inflation — fine for short-term goals, weak for long-term growth."
+    },
+    {
+      "label": "Start a low-cost index SIP",
+      "effects": { "startSip": { "label": "Index Fund SIP", "monthly": 5000, "annualReturn": 12 }, "knowledge": 6 },
+      "lesson": "For long horizons, broad low-cost index funds have historically grown faster than FDs or gold. Match the tool to the time horizon."
+    }
+  ],
+  "concept": "Choosing investments for your time horizon"
+}

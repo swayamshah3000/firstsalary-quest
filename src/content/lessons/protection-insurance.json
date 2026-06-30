@@ -1,0 +1,75 @@
+{
+  "id": "protection-insurance",
+  "order": 3,
+  "title": "Protecting Your Income: Insurance Basics",
+  "concept": "Health, term, accident & critical illness cover",
+  "estimatedMinutes": 5,
+  "summary": "Insurance protects your savings from large, rare shocks. For a young earner, health insurance and an emergency fund usually matter first; term insurance matters most once people depend on your income.",
+  "sections": [
+    {
+      "heading": "Why protection before growth",
+      "body": "One hospital stay or accident can wipe out years of saving. Insurance transfers that rare-but-huge risk to an insurer for a small, predictable premium."
+    },
+    {
+      "heading": "The four common covers",
+      "body": "Health insurance pays hospital bills. Personal accident cover pays if an accident affects your ability to earn. Critical illness cover pays a lump sum on serious diagnoses. Term insurance pays your dependents if you die."
+    },
+    {
+      "heading": "What a fresher usually needs first",
+      "body": "Without dependents, term insurance is often not urgent. Your own health cover (don't rely only on employer cover) and an emergency fund usually come first."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "ins-q1",
+      "prompt": "Insurance is mainly there to:",
+      "options": [
+        "Grow your wealth quickly",
+        "Protect your savings from rare, large shocks",
+        "Replace an emergency fund"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "ins-q2",
+      "prompt": "Term insurance matters most when:",
+      "options": [
+        "You are young with no dependents",
+        "People financially depend on your income",
+        "You want high investment returns"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "ins-q3",
+      "prompt": "Which cover pays your dependents if you die?",
+      "options": [
+        "Health insurance",
+        "Personal accident cover",
+        "Term insurance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "ins-q4",
+      "prompt": "For a fresher with no dependents, what usually comes first?",
+      "options": [
+        "Their own health cover and an emergency fund",
+        "A large term insurance policy",
+        "A critical illness lump-sum plan only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "ins-q5",
+      "prompt": "Why is it unwise to rely only on employer-provided health cover?",
+      "options": [
+        "Employer cover always pays more than you need",
+        "It can end or fall short when you change or lose the job",
+        "It is illegal to use employer cover"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only — not advice to buy any specific policy. Consult a licensed professional for real decisions."
+}

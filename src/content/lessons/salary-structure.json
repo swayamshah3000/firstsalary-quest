@@ -1,0 +1,55 @@
+{
+  "id": "salary-structure",
+  "order": 10,
+  "title": "Reading Your Payslip",
+  "concept": "CTC vs take-home pay",
+  "estimatedMinutes": 5,
+  "summary": "Your first payslip can look confusing with many line items. This lesson breaks down what CTC, basic, HRA, PF, professional tax and TDS actually mean.",
+  "sections": [
+    {
+      "heading": "CTC vs Take-Home",
+      "body": "CTC (Cost to Company) is the total amount your employer spends on you in a year, including parts you never see directly in your bank account. Take-home (or net) salary is what actually lands in your account after deductions. The gap between the two often surprises first-time earners, so it is important to look at take-home, not just CTC, when comparing offers."
+    },
+    {
+      "heading": "Basic, HRA and Allowances",
+      "body": "Basic salary is the core component and many other figures, such as PF and HRA, are calculated as a percentage of it. HRA (House Rent Allowance) helps cover rent and can offer tax benefits if you actually pay rent. Other allowances may include special allowance, transport or meal components, which together build up your gross salary."
+    },
+    {
+      "heading": "Deductions: PF, PT and TDS",
+      "body": "Provident Fund (PF) is a retirement saving where you and your employer each contribute, typically 12% of basic, and it is your money growing for later. Professional Tax (PT) is a small state-level tax, often a few hundred rupees a month. TDS (Tax Deducted at Source) is income tax your employer withholds and deposits with the government on your behalf."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "salary-structure-q1",
+      "prompt": "Which figure best reflects the money that actually reaches your bank account?",
+      "options": ["CTC", "Take-home (net) salary", "Gross salary"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "salary-structure-q2",
+      "prompt": "PF (Provident Fund) deducted from your salary is best described as:",
+      "options": ["A tax you never get back", "Your own retirement savings growing for later", "A penalty for joining late"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "salary-structure-q3",
+      "prompt": "What does TDS stand for?",
+      "options": ["Tax Deducted at Source", "Total Daily Salary", "Transfer Deposit Scheme"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "salary-structure-q4",
+      "prompt": "HRA in a payslip is mainly intended to help with:",
+      "options": ["Health insurance", "Rent on your home", "Holiday travel"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "salary-structure-q5",
+      "prompt": "Professional Tax (PT) is levied by:",
+      "options": ["Your bank", "A state government", "The Reserve Bank of India"],
+      "correctIndex": 1
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

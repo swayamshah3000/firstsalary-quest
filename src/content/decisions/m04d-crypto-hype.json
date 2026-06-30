@@ -1,0 +1,19 @@
+{
+  "id": "m04d-crypto-hype",
+  "month": 4,
+  "title": "The Crypto Group Chat",
+  "scenario": "Your college group chat is buzzing about a cryptocurrency that 'tripled in a week'. A friend swears he made ₹50,000 and urges you to put in ₹25,000 before you 'miss out'. You do not really understand how the coin works.",
+  "choices": [
+    {
+      "label": "Stay out, read up on how it actually works, and risk only what you can lose later",
+      "effects": { "knowledge": 5 },
+      "lesson": "FOMO is not a strategy. Never invest in something you cannot explain, and only ever risk money you can fully afford to lose."
+    },
+    {
+      "label": "Throw in ₹25,000 to chase the rally before it climbs further",
+      "effects": { "cash": -25000 },
+      "lesson": "Hype-driven assets are highly volatile and often peak right as newcomers pile in. You usually hear about the wins, never the wipeouts."
+    }
+  ],
+  "concept": "Speculation and FOMO investing"
+}

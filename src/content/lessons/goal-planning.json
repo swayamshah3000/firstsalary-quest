@@ -1,0 +1,71 @@
+{
+  "id": "goal-planning",
+  "order": 7,
+  "title": "Planning for Goals",
+  "concept": "Goal planning, time horizons",
+  "estimatedMinutes": 4,
+  "summary": "Money feels more meaningful when it's pointed at a goal. The trick is to match each goal to a time horizon, and to work backwards from the target to a monthly amount.",
+  "sections": [
+    {
+      "heading": "Name the goal, date it, price it",
+      "body": "A vague 'I should save more' rarely sticks. 'A ₹2 lakh trip in 2 years' or 'a ₹50,000 laptop in 10 months' is concrete — you can work out exactly how much to set aside each month."
+    },
+    {
+      "heading": "Match the goal to a horizon",
+      "body": "Short-term goals (under ~3 years) belong in safer, stable places so the money is there when you need it. Long-term goals can use growth investments that ride out market ups and downs."
+    },
+    {
+      "heading": "Work backwards",
+      "body": "Start from the target and the date, then divide into a monthly amount (a SIP-for-a-goal calculation). Automating that monthly transfer makes the goal almost happen by itself."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "goal-q1",
+      "prompt": "Money for a goal you need in 1 year is best kept in:",
+      "options": ["A volatile equity fund", "A safe, stable option", "A 10-year locked product"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "goal-q2",
+      "prompt": "The best way to plan a savings goal is to:",
+      "options": [
+        "Save whatever is left at month-end",
+        "Work backwards from the target and date to a monthly amount",
+        "Wait for a bonus to cover it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "goal-q3",
+      "prompt": "Which is an example of a well-defined goal as described in the lesson?",
+      "options": [
+        "A ₹2 lakh trip in 2 years",
+        "I should save more someday",
+        "Become rich eventually"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "goal-q4",
+      "prompt": "A long-term goal (many years away) can be kept in:",
+      "options": [
+        "Only a savings account",
+        "Growth investments that ride out market ups and downs",
+        "Cash under the mattress"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "goal-q5",
+      "prompt": "What makes a monthly goal contribution 'almost happen by itself'?",
+      "options": [
+        "Automating the monthly transfer",
+        "Checking the market every day",
+        "Waiting for prices to fall"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}

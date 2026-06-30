@@ -1,0 +1,19 @@
+{
+  "id": "m05-emi-temptation",
+  "month": 5,
+  "title": "No Cost EMI, They Said",
+  "scenario": "A festival sale offers a premium ₹60,000 laptop on a 12-month 'no cost EMI' plan. Your current laptop works fine for your job. Do you swipe for it?",
+  "choices": [
+    {
+      "label": "Buy it on a 12-month EMI",
+      "effects": { "addLoan": { "label": "Laptop EMI", "principal": 60000, "annualRate": 14, "months": 12 }, "lifestyleExpenses": 800 },
+      "lesson": "EMIs make expensive wants feel affordable by hiding the full cost. Several 'tiny' EMIs together can quietly trap a big share of your income."
+    },
+    {
+      "label": "Keep my current laptop",
+      "effects": { "knowledge": 4 },
+      "lesson": "Borrowing for wants (not needs) mortgages your future income. The cheapest gadget is often the one you already own and don't replace."
+    }
+  ],
+  "concept": "Consumer debt, EMIs & cost of borrowing"
+}

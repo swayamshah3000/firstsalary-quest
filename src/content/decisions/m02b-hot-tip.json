@@ -1,0 +1,19 @@
+{
+  "id": "m02b-hot-tip",
+  "month": 2,
+  "title": "A Friend's Hot Tip",
+  "scenario": "A friend swears a particular stock will 'double in a month' and urges you to put in ₹30,000 now. Do you jump in?",
+  "choices": [
+    {
+      "label": "Go all in on the tip",
+      "effects": { "cash": -30000, "knowledge": -4 },
+      "lesson": "'Guaranteed double' tips are a classic trap. Concentrated bets on hype are gambling, not investing — and beginners usually lose."
+    },
+    {
+      "label": "Pass and keep building basics",
+      "effects": { "emergencyFund": 10000, "knowledge": 6 },
+      "lesson": "Boring beats flashy. Before chasing returns, secure your basics — an emergency fund and diversified, low-cost investing."
+    }
+  ],
+  "concept": "Speculation vs investing & hype traps"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m10-credit-card-trap",
+  "month": 10,
+  "title": "Just Pay the Minimum?",
+  "scenario": "Your credit card bill is ₹30,000 this month. The bank says you can just pay the 'minimum due' and carry the rest. The interest rate is around 36% a year. What do you do?",
+  "choices": [
+    {
+      "label": "Pay the minimum, carry the balance",
+      "effects": { "addLoan": { "label": "Credit Card Debt", "principal": 30000, "annualRate": 36, "months": 12 }, "lifestyleExpenses": 500 },
+      "lesson": "Credit card 'minimum due' is a debt trap: ~36% annual interest compounds fast and can balloon a small bill into a long-term burden."
+    },
+    {
+      "label": "Pay the bill in full",
+      "effects": { "cash": -30000, "knowledge": 6 },
+      "lesson": "Used well, a credit card is free short-term credit. The rule is simple: always pay the full statement, never just the minimum."
+    }
+  ],
+  "concept": "Credit cards, BNPL & high-interest debt"
+}

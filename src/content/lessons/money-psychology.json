@@ -1,0 +1,55 @@
+{
+  "id": "money-psychology",
+  "order": 18,
+  "title": "The Psychology of Money",
+  "concept": "Behaviour shapes financial outcomes",
+  "estimatedMinutes": 5,
+  "summary": "Many money mistakes come from predictable mental habits rather than lack of knowledge. Spotting biases like lifestyle creep, herd mentality and FOMO helps you make calmer decisions.",
+  "sections": [
+    {
+      "heading": "Lifestyle Creep",
+      "body": "Lifestyle creep is when your spending quietly rises every time your income does, so you never seem to have spare money despite earning more. A first raise can vanish into pricier subscriptions, dining and gadgets. Noticing this lets you grow your savings rate as you earn, not just your spending."
+    },
+    {
+      "heading": "Herd Mentality and FOMO",
+      "body": "Herd mentality is doing what everyone around you is doing, such as piling into a trending investment simply because friends are. FOMO, the fear of missing out, pushes people to act fast without thinking. Both can lead you to buy at the wrong time or take on risk you do not understand."
+    },
+    {
+      "heading": "Recency Bias and Anchoring",
+      "body": "Recency bias makes us assume the recent past will continue, so we expect rising prices to keep rising or a fall to keep falling. Anchoring is fixating on one number, like an original price, and judging everything against it. Being aware of these tendencies helps you pause and look at the full picture before deciding."
+    }
+  ],
+  "quiz": [
+    {
+      "questionId": "money-psychology-q1",
+      "prompt": "What is 'lifestyle creep'?",
+      "options": ["Spending rising automatically as income rises", "Saving more each year", "A type of bank fee"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "money-psychology-q2",
+      "prompt": "Which best describes 'herd mentality' in money decisions?",
+      "options": ["Carefully researching on your own", "Doing something just because everyone else is", "Ignoring all trends completely"],
+      "correctIndex": 1
+    },
+    {
+      "questionId": "money-psychology-q3",
+      "prompt": "What does 'recency bias' lead people to assume?",
+      "options": ["That old information is always best", "That numbers do not matter", "That the recent trend will simply continue"],
+      "correctIndex": 2
+    },
+    {
+      "questionId": "money-psychology-q4",
+      "prompt": "FOMO most often causes people to do what?",
+      "options": ["Act quickly without thinking it through", "Save patiently for years", "Avoid all spending entirely"],
+      "correctIndex": 0
+    },
+    {
+      "questionId": "money-psychology-q5",
+      "prompt": "What is 'anchoring'?",
+      "options": ["Keeping money in a savings account", "Diversifying your investments", "Fixating on one reference number when judging value"],
+      "correctIndex": 2
+    }
+  ],
+  "disclaimer": "Educational content only. This is a simulation, not financial advice."
+}
