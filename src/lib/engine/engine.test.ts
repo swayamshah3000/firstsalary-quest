@@ -133,6 +133,38 @@ describe('resilience score', () => {
 		expect(typeof resilienceBand(score)).toBe('string');
 	});
 
+	it('rewards a strong first-year position with a high score', () => {
+		// Good 12-month play: health + accident cover, real emergency fund, a year
+		// of SIPs, low lifestyle. This should read as "on track", not "failure".
+		const start = createInitialState(baseProfile);
+		const strong: FinancialState = {
+			...start,
+			month: 12,
+			cash: 30000,
+			emergencyFund: 60000,
+			investments: 100000,
+			investmentReturn: 12,
+			insurance: { health: 500000, term: 0, accident: 1000000, criticalIllness: 0 },
+			lifestyleExpenses: 6000
+		};
+		expect(resilienceScore(computeMeters(strong))).toBeGreaterThanOrEqual(75);
+	});
+
+	it('gives a reckless year a low score', () => {
+		const start = createInitialState(baseProfile);
+		const weak: FinancialState = {
+			...start,
+			month: 12,
+			cash: -50000,
+			emergencyFund: 0,
+			investments: 0,
+			loans: [{ id: 'l', label: 'debt', balance: 200000, annualRate: 20, emi: 5000, monthsLeft: 40 }],
+			insurance: { health: 0, term: 0, accident: 0, criticalIllness: 0 },
+			lifestyleExpenses: 20000
+		};
+		expect(resilienceScore(computeMeters(weak))).toBeLessThanOrEqual(35);
+	});
+
 	it('keeps meters clamped even with deeply negative net worth', () => {
 		const start = createInitialState(baseProfile);
 		const broke = applyEffects(start, {

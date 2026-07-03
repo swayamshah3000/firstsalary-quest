@@ -28,7 +28,7 @@
 		error = '';
 		saving = true;
 		await startNewGame(parsed.data);
-		goto('/game');
+		goto('/game?intro=1');
 	}
 </script>
 

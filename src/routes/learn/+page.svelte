@@ -1,10 +1,16 @@
 <script lang="ts">
 	import { lessons } from '$lib/lessons';
 	import { quizResults } from '$lib/stores/gameStore';
+	import { page } from '$app/state';
 	import type { Lesson } from '$lib/schemas/lesson';
 	import Quiz from '$lib/components/Quiz.svelte';
 
-	let selectedId = $state<string | null>(null);
+	// Deep-link support: /learn?module=<id> opens that lesson directly (used by the
+	// "learn this now" links on the game screen).
+	const initialModule = page.url.searchParams.get('module');
+	let selectedId = $state<string | null>(
+		initialModule && lessons.some((l) => l.id === initialModule) ? initialModule : null
+	);
 	const selected = $derived(lessons.find((l) => l.id === selectedId) ?? null);
 
 	function status(lesson: Lesson, results: Record<string, boolean>) {

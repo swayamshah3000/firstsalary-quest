@@ -36,11 +36,27 @@ function hashString(s: string): number {
 }
 
 /**
+ * "Pillar" decisions guaranteed to appear every play-through, so the score stays
+ * fair. Health insurance is the only path to health cover (half the Protection
+ * meter), so it must always be offered — otherwise a run could penalise you for
+ * something you were never given the chance to do.
+ */
+const PILLAR_CARDS: Record<number, string> = {
+	3: 'm03-health-insurance'
+};
+
+/**
  * Pick one card for a month deterministically from a seed (e.g. the player's
  * character). Different characters see different scenarios — adding replay
- * variety — while a single run stays stable when the page reloads.
+ * variety — while a single run stays stable when the page reloads. Pillar months
+ * always show their guaranteed card.
  */
 export function pickCardForMonth(month: number, seed: string): DecisionCard | undefined {
+	const pillarId = PILLAR_CARDS[month];
+	if (pillarId) {
+		const pillar = decisionCards.find((card) => card.id === pillarId);
+		if (pillar) return pillar;
+	}
 	const pool = cardsForMonth(month);
 	if (pool.length === 0) return undefined;
 	return pool[hashString(`${seed}:${month}`) % pool.length];

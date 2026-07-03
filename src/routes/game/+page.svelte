@@ -1,5 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { page } from '$app/state';
 	import {
 		userProfile,
 		currentMonth,
@@ -9,27 +11,43 @@
 		skipMonth,
 		isGameOver,
 		TOTAL_MONTHS,
-		scoreKeys
+		scoreKeys,
+		meterInfo
 	} from '$lib/stores/gameStore';
 	import { pickCardForMonth } from '$lib/decisions';
+	import { lessonForConcept } from '$lib/lessons';
 	import ScoreMeter from '$lib/components/ScoreMeter.svelte';
+	import HowToPlay from '$lib/components/HowToPlay.svelte';
 
 	const meterLabels: Record<(typeof scoreKeys)[number], string> = {
 		netWorth: 'Net Worth',
-		emergencyFund: 'Emergency Fund',
+		emergencyFund: 'Emergency Readiness',
 		protectionScore: 'Protection',
 		lifestyleInflation: 'Lifestyle Inflation',
 		financialFreedom: 'Financial Freedom'
 	};
+
+	// Onboarding: auto-open once after setup (?intro=1), re-openable via the link.
+	let showIntro = $state(false);
+	onMount(() => {
+		if (page.url.searchParams.get('intro') === '1') {
+			showIntro = true;
+			history.replaceState(null, '', '/game'); // clean URL so reload doesn't re-show
+		}
+	});
 
 	const inr = (n: number) => '₹' + Math.round(n).toLocaleString('en-IN');
 
 	// A stable seed per character → different runs see different scenarios,
 	// but a single run stays consistent across reloads.
 	const seed = $derived(
-		$userProfile ? `${$userProfile.name}|${$userProfile.city}|${$userProfile.salary}` : ''
+		$userProfile
+			? `${$userProfile.name}|${$userProfile.city}|${$userProfile.salary}|${$userProfile.familyDependency}`
+			: ''
 	);
 	const card = $derived(pickCardForMonth($currentMonth, seed));
+	// Contextual "learn this now" — link the current scenario to a related lesson.
+	const relatedLesson = $derived(card ? lessonForConcept(`${card.concept} ${card.title}`) : undefined);
 	let lastLesson = $state('');
 
 	function choose(index: number) {
@@ -57,7 +75,10 @@
 	<div class="game">
 		<div class="head">
 			<span class="month">Month {$currentMonth} / {TOTAL_MONTHS}</span>
-			<span class="who">{$userProfile.name} · {$userProfile.city}</span>
+			<span class="head-right">
+				<button class="how-link" onclick={() => (showIntro = true)}>ⓘ How to play</button>
+				<span class="who">{$userProfile.name} · {$userProfile.city}</span>
+			</span>
 		</div>
 
 		<div class="money">
@@ -77,6 +98,12 @@
 						<button onclick={() => choose(i)}>{choice.label}</button>
 					{/each}
 				</div>
+
+				{#if relatedLesson}
+					<a class="learn-link" href={`/learn?module=${relatedLesson.id}`}>
+						📖 New to this? Learn: {relatedLesson.title} →
+					</a>
+				{/if}
 			</article>
 		{:else}
 			<article class="card">
@@ -94,10 +121,14 @@
 
 		<section class="meters">
 			{#each scoreKeys as key (key)}
-				<ScoreMeter label={meterLabels[key]} value={$meters[key]} />
+				<ScoreMeter label={meterLabels[key]} value={$meters[key]} info={meterInfo[key]} />
 			{/each}
 		</section>
 	</div>
+{/if}
+
+{#if showIntro && $userProfile}
+	<HowToPlay profile={$userProfile} onClose={() => (showIntro = false)} />
 {/if}
 
 <style>
@@ -116,9 +147,27 @@
 	.head {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		color: #52606d;
 		font-size: 0.9rem;
 		margin-bottom: 0.5rem;
+	}
+	.head-right {
+		display: flex;
+		align-items: center;
+		gap: 0.9rem;
+	}
+	.how-link {
+		border: none;
+		background: none;
+		color: #1f7a45;
+		font-weight: 600;
+		font-size: 0.85rem;
+		cursor: pointer;
+		padding: 0;
+	}
+	.how-link:hover {
+		text-decoration: underline;
 	}
 	.month {
 		font-weight: 700;
@@ -188,6 +237,21 @@
 	.choices button:hover {
 		border-color: #2e9e5b;
 		background: #f1faf4;
+	}
+	.learn-link {
+		display: inline-block;
+		margin-top: 1rem;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: #1f7a45;
+		text-decoration: none;
+		background: #e3f2e9;
+		border: 1px solid #b6e0c6;
+		border-radius: 0.5rem;
+		padding: 0.4rem 0.7rem;
+	}
+	.learn-link:hover {
+		background: #d4ecdd;
 	}
 	.lesson {
 		margin-top: 1rem;

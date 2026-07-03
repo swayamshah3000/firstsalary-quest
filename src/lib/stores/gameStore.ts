@@ -29,6 +29,20 @@ export const scoreKeys = [
 
 export type ScoreKey = (typeof scoreKeys)[number];
 
+/** Plain-language explanation of each meter, shown via the ⓘ on ScoreMeter. */
+export const meterInfo: Record<ScoreKey, string> = {
+	netWorth:
+		'Everything you own (cash + savings + investments) minus what you owe (loans). Your true financial position — higher is better.',
+	emergencyFund:
+		'Progress toward a safe cushion: the meter reaches 100 when your savings + cash could cover 3 months of essential expenses. A lower number means fewer months covered (e.g. ~69 ≈ 2 months).',
+	protectionScore:
+		'How well insurance shields you from big shocks like a hospital bill or accident. Higher means better protected.',
+	lifestyleInflation:
+		'How much of your income goes to non-essential "wants". A higher score means you are keeping lifestyle spending in check.',
+	financialFreedom:
+		'Progress toward money working for you — how much you have invested relative to your income. Higher means closer to financial freedom.'
+};
+
 export const TOTAL_MONTHS = 12;
 
 const NEUTRAL_METERS: Meters = {

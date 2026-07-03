@@ -47,8 +47,25 @@ export const RECOMMENDED_HEALTH_COVER: Record<CityTier, number> = {
 /** Term cover rule of thumb: this many times annual income (only if dependents). */
 export const TERM_COVER_INCOME_MULTIPLE = 10;
 
-/** Target number of months of essentials for a "full" emergency fund. */
+/** Real-world "full" emergency fund target (used in lessons/copy): 6 months. */
 export const EMERGENCY_FUND_TARGET_MONTHS = 6;
+
+/**
+ * Score calibration — tuned so a *good 12-month run* can reach a high score.
+ *
+ * The meters can't use lifetime targets (6 months saved, a whole year's income
+ * invested) because nobody can reach those in one year on a starting salary — so
+ * even perfect play would look like failure. These are the milestones a strong
+ * *first year* can realistically hit, and each maps to a meter score of 100.
+ */
+export const SCORE_CALIBRATION = {
+	/** Net worth of this many months' income → net-worth meter 100. */
+	netWorthFullMonths: 4,
+	/** Emergency savings covering this many months of essentials → meter 100. */
+	emergencyFullMonths: 3,
+	/** Invested corpus of this many months' income → financial-freedom meter 100. */
+	freedomFullMonths: 2
+} as const;
 
 /** Weights for blending the five meters into the Financial Resilience Score. */
 export const RESILIENCE_WEIGHTS = {

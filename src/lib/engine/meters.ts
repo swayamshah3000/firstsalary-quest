@@ -1,7 +1,7 @@
 import {
-	EMERGENCY_FUND_TARGET_MONTHS,
 	RECOMMENDED_HEALTH_COVER,
 	RESILIENCE_WEIGHTS,
+	SCORE_CALIBRATION,
 	TERM_COVER_INCOME_MULTIPLE
 } from './config';
 import type { FinancialState, Meters } from './types';
@@ -28,15 +28,18 @@ export function computeMeters(state: FinancialState): Meters {
 	const income = state.monthlyIncome;
 	const annualIncome = income * 12;
 	const essentials = Math.max(1, state.baseExpenses);
+	const cal = SCORE_CALIBRATION;
 
-	// Net worth: 0 net worth → 50; six months' pay saved → 100; equally negative → 0.
-	const netWorth = clamp(50 + (netWorthValue(state) / (income * 6)) * 50);
+	// Net worth: 0 → 50; a strong first-year net worth (a few months' pay) → 100;
+	// equally negative → 0.
+	const netWorth = clamp(50 + (netWorthValue(state) / (income * cal.netWorthFullMonths)) * 50);
 
 	// Emergency readiness: months of essentials covered by liquid + earmarked savings.
 	const monthsCovered = (state.emergencyFund + Math.max(0, state.cash)) / essentials;
-	const emergencyFund = clamp((monthsCovered / EMERGENCY_FUND_TARGET_MONTHS) * 100);
+	const emergencyFund = clamp((monthsCovered / cal.emergencyFullMonths) * 100);
 
-	// Protection: how close insurance cover is to what this profile needs.
+	// Protection: how close insurance cover is to what this profile needs. Buying
+	// even one relevant cover should move the meter meaningfully.
 	const ins = state.insurance;
 	const healthScore = clamp(ins.health / RECOMMENDED_HEALTH_COVER[state.cityTier], 0, 1);
 	const accidentScore = ins.accident > 0 ? 1 : 0;
@@ -47,7 +50,8 @@ export function computeMeters(state: FinancialState): Meters {
 		protectionScore =
 			100 * (0.4 * healthScore + 0.3 * termScore + 0.15 * accidentScore + 0.15 * criticalScore);
 	} else {
-		// Term insurance isn't a priority without dependents.
+		// No dependents: health is the priority (0.6). Health + one more relevant
+		// cover reaches 80 (the "Fully Protected" milestone); all three → 100.
 		protectionScore = 100 * (0.6 * healthScore + 0.2 * accidentScore + 0.2 * criticalScore);
 	}
 
@@ -55,8 +59,9 @@ export function computeMeters(state: FinancialState): Meters {
 	const ratio = state.lifestyleExpenses / income;
 	const lifestyleInflation = clamp(100 - Math.max(0, ratio - 0.15) * 300);
 
-	// Financial freedom progress: corpus relative to one year's income.
-	const financialFreedom = clamp((state.investments / annualIncome) * 100);
+	// Financial freedom progress: invested corpus relative to a strong first-year
+	// milestone (a couple of months' income invested), not a whole year's income.
+	const financialFreedom = clamp((state.investments / (income * cal.freedomFullMonths)) * 100);
 
 	return {
 		netWorth: Math.round(netWorth),

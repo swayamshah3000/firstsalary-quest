@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { Chart, Svg, Axis, Area } from 'layerchart';
+	import { Chart, Svg, Axis, Area, LinearGradient } from 'layerchart';
 	import {
 		userProfile,
 		gameState,
@@ -13,6 +13,7 @@
 		badges,
 		earnedBadgeCount,
 		scoreKeys,
+		meterInfo,
 		TOTAL_MONTHS
 	} from '$lib/stores/gameStore';
 	import ScoreMeter from '$lib/components/ScoreMeter.svelte';
@@ -20,7 +21,7 @@
 
 	const meterLabels: Record<(typeof scoreKeys)[number], string> = {
 		netWorth: 'Net Worth',
-		emergencyFund: 'Emergency Fund',
+		emergencyFund: 'Emergency Readiness',
 		protectionScore: 'Protection',
 		lifestyleInflation: 'Lifestyle Inflation',
 		financialFreedom: 'Financial Freedom'
@@ -102,12 +103,19 @@
 					y="netWorth"
 					yNice
 					yBaseline={0}
-					padding={{ left: 56, bottom: 28, top: 12, right: 12 }}
+					padding={{ left: 62, bottom: 28, top: 16, right: 16 }}
 				>
 					<Svg>
-						<Axis placement="left" grid rule format={(v: number) => shortInr(v)} />
-						<Axis placement="bottom" rule format={(v: number) => 'M' + v} />
-						<Area fill="#2e9e5b" fillOpacity={0.15} line={{ stroke: '#2e9e5b', strokeWidth: 2 }} />
+						<Axis
+							placement="left"
+							grid={{ style: 'stroke: #eef1f3; stroke-width: 1' }}
+							rule={false}
+							format={(v: number) => shortInr(v)}
+						/>
+						<Axis placement="bottom" rule={{ style: 'stroke: #d7dde2' }} format={(v: number) => 'M' + v} />
+						<LinearGradient stops={['rgba(46,158,91,0.30)', 'rgba(46,158,91,0)']} vertical let:gradient>
+							<Area fill={gradient} line={{ stroke: '#1B6B3A', strokeWidth: 2.5 }} />
+						</LinearGradient>
 					</Svg>
 				</Chart>
 			</div>
@@ -126,7 +134,7 @@
 
 	<section class="meters">
 		{#each scoreKeys as key (key)}
-			<ScoreMeter label={meterLabels[key]} value={$meters[key]} />
+			<ScoreMeter label={meterLabels[key]} value={$meters[key]} info={meterInfo[key]} />
 		{/each}
 	</section>
 

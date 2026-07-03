@@ -12,6 +12,7 @@
 		badges,
 		earnedBadgeCount,
 		scoreKeys,
+		meterInfo,
 		TOTAL_MONTHS
 	} from '$lib/stores/gameStore';
 	import ScoreMeter from '$lib/components/ScoreMeter.svelte';
@@ -19,7 +20,7 @@
 
 	const meterLabels: Record<(typeof scoreKeys)[number], string> = {
 		netWorth: 'Net Worth',
-		emergencyFund: 'Emergency Fund',
+		emergencyFund: 'Emergency Readiness',
 		protectionScore: 'Protection',
 		lifestyleInflation: 'Lifestyle Inflation',
 		financialFreedom: 'Financial Freedom'
@@ -62,7 +63,7 @@
 
 	<section class="meters">
 		{#each scoreKeys as key (key)}
-			<ScoreMeter label={meterLabels[key]} value={$meters[key]} />
+			<ScoreMeter label={meterLabels[key]} value={$meters[key]} info={meterInfo[key]} />
 		{/each}
 	</section>
 
