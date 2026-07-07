@@ -1,0 +1,11 @@
+# Normalize line endings to LF across all platforms (Windows/macOS/Linux),
+# so the repo stays consistent no matter where it's edited or built.
+* text=auto eol=lf
+
+# Keep binary assets untouched.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.icns binary
+*.svg text
