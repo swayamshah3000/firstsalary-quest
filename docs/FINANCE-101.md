@@ -6,11 +6,7 @@ one section at a time. By the end you'll understand every term in FirstSalary
 Quest — CTC, SIP, compounding, EMI, funds, insurance — and, more importantly,
 what to actually *do* with your first salary.
 
-> ⚠️ This is **education, not personalized advice**. And you have a superpower most
-> people don't: your father has done this professionally for 25 years. Use this
-> guide to learn the vocabulary, then take your questions to him — that's the
-> fastest way to really get it.
-
+> ⚠️ This is **education, not personalized advice**.
 ---
 
 ## The one idea behind everything
